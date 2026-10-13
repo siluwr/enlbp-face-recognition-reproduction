@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "orl",
+    "seed": 0,
+    "method": "enlbp_mean_gt",
+    "query_chunk_size": 16,
+    "request_count": 13,
+    "rebuild_seconds_median": 0.01357560000178637,
+    "reuse_seconds_median": 0.003138699998089578,
+    "reuse_includes_one_index_build": true
+  },
+  {
+    "dataset": "lfwa",
+    "seed": 0,
+    "method": "enlbp_mean_gt",
+    "query_chunk_size": 16,
+    "request_count": 24,
+    "rebuild_seconds_median": 0.16931380000460194,
+    "reuse_seconds_median": 0.0630955999949947,
+    "reuse_includes_one_index_build": true
+  }
+]

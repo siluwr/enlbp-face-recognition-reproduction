@@ -1,0 +1,3 @@
+﻿dataset,seed,method,query_chunk_size,request_count,rebuild_seconds_median,reuse_seconds_median,reuse_includes_one_index_build
+orl,0,enlbp_mean_gt,16,13,0.01357560000178637,0.003138699998089578,True
+lfwa,0,enlbp_mean_gt,16,24,0.16931380000460194,0.0630955999949947,True

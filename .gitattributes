@@ -10,3 +10,6 @@
 outputs/lbp_enlbp_orl/** -text
 outputs/lbp_enlbp_lfwa/** -text
 outputs/reference_figures/** -text
+outputs/optimization/** -text
+benchmarks/reference_v1/** -text
+*.pptx binary

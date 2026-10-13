@@ -1,0 +1,12 @@
+{
+  "source_public_commit": "4524e8631c4297d66ff80dcde35725e46edf8823",
+  "purpose": "Frozen reference for paired performance and output-equivalence measurements",
+  "original_sha256": {
+    "enlbp/datasets.py": "8a8c97b892fde4eeb8698ab311a1a70e9a4d412343ada5aab3e558db839bdb84",
+    "enlbp/descriptors.py": "f6288869a36387b2502c0b6e8957f49c14ece75be3b79512532def8fd7e2d97c",
+    "enlbp/matching.py": "b9fe649b0fedaf6c1bddceaf795d508a8f0f2dfc51926d4e2f30d677169b2b63",
+    "enlbp/__init__.py": "995c0b03632396c77c915e5269821071bcb2f74c61ecd40df4808604037c185f",
+    "run_experiment.py": "e88fa8a918b9a87898b90d68df5a918b6569fe6eec0a1f8f48f7f0f7a21189df"
+  },
+  "encoder_change": "Descriptor import points to the frozen reference package; body otherwise unchanged."
+}

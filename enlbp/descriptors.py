@@ -7,6 +7,7 @@ p7=SE, as shown in Figure 1. No padding or interpolation is performed.
 
 from __future__ import annotations
 
+from functools import lru_cache
 import numpy as np
 
 
@@ -18,13 +19,16 @@ def _positive_integer(value: int, name: str) -> int:
     return int(value)
 
 
-def _image(image: np.ndarray) -> np.ndarray:
+def _image(image: np.ndarray, *, preserve_uint8: bool = False) -> np.ndarray:
     """Validate and convert to finite, real float64 without unsigned subtraction."""
     array = np.asarray(image)
     if array.ndim != 2 or 0 in array.shape:
         raise ValueError("image must be a nonempty two-dimensional array")
     if not np.issubdtype(array.dtype, np.number) or np.iscomplexobj(array):
         raise ValueError("image must contain real numeric values")
+    if preserve_uint8 and array.dtype == np.uint8:
+        # uint8 values are finite and direct comparisons need no conversion.
+        return array
     with np.errstate(over="ignore", invalid="ignore"):
         array = array.astype(np.float64, copy=False)
     if not np.isfinite(array).all():
@@ -47,7 +51,7 @@ def lbp(image: np.ndarray, comparison: str = "ge", stride: int = 1) -> np.ndarra
     With any positive stride, the output shape is
     ``(ceil((H - 2) / stride), ceil((W - 2) / stride))``.
     """
-    array = _image(image)
+    array = _image(image, preserve_uint8=True)
     comparison = _comparison(comparison)
     stride = _positive_integer(stride, "stride")
     height, width = array.shape
@@ -172,13 +176,26 @@ def lbp_histogram(
     rows, columns = _grid(grid)
     if rows > codes.shape[0] or columns > codes.shape[1]:
         raise ValueError("grid must leave at least one LBP code in every region")
-    histograms = []
-    for row in np.array_split(codes, rows, axis=0):
-        for region in np.array_split(row, columns, axis=1):
-            histogram = np.bincount(region.ravel(), minlength=256).astype(np.float64)
-            histogram /= region.size
-            histograms.append(histogram)
-    return np.concatenate(histograms)
+    offsets, sizes = _histogram_layout(*codes.shape, rows, columns)
+    # Encode (region, code) as a single integer and count every bin in one pass.
+    histogram = np.bincount((offsets + codes).ravel(), minlength=rows * columns * 256)
+    return (histogram.reshape(-1, 256) / sizes[:, None]).ravel()
+
+
+@lru_cache(maxsize=8)
+def _histogram_layout(height: int, width: int, rows: int, columns: int):
+    """Cache image-independent region indices, exactly matching array_split."""
+    row_sizes = np.full(rows, height // rows, dtype=np.intp)
+    row_sizes[:height % rows] += 1
+    column_sizes = np.full(columns, width // columns, dtype=np.intp)
+    column_sizes[:width % columns] += 1
+    row_ids = np.repeat(np.arange(rows, dtype=np.intp), row_sizes)
+    column_ids = np.repeat(np.arange(columns, dtype=np.intp), column_sizes)
+    offsets = (row_ids[:, None] * columns + column_ids[None, :]) * 256
+    sizes = (row_sizes[:, None] * column_sizes[None, :]).ravel()
+    offsets.setflags(write=False)
+    sizes.setflags(write=False)
+    return offsets, sizes
 
 
 def extract_feature(
