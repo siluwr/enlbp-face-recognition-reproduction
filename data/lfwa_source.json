@@ -1,0 +1,12 @@
+{
+  "url": "https://drive.google.com/uc?export=download&id=1p1wjaqpTh_5RHfJu4vUh8JJCdKwYMHCp",
+  "description_url": "https://talhassner.github.io/home/projects/lfwa/",
+  "credit": "Lior Wolf, Tal Hassner, Yaniv Taigman; original LFW creators",
+  "expected_images": 13233,
+  "expected_subjects": 5749,
+  "archive_sha256": "356f770659646133fc09770d71e71b33792a551fa67cd425184f0759359882f6",
+  "extracted_images": 13233,
+  "download_date": "2026-10-13T11:25:59.631744+08:00",
+  "archive_name": "lfwa.zip",
+  "data_directory": "lfwa"
+}

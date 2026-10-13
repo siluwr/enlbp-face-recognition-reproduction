@@ -1,0 +1,2055 @@
+{
+  "status": "pass",
+  "pass": true,
+  "created_utc": "2026-10-13T03:34:46.537953+00:00",
+  "independent_validation": true,
+  "scope": "Recomputed metrics from per-sample true/predicted labels; checked JSON/CSV consistency, shared split membership, all-remaining-probe protocols, exact file SHA256 overlap and manifest actual file SHA256. No model training or feature extraction rerun.",
+  "tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-09
+  },
+  "check_count": 359992,
+  "passed_check_count": 359992,
+  "failed_check_count": 0,
+  "error_count": 0,
+  "warning_count": 0,
+  "checks_by_category": {
+    "aggregate_accuracy_percent_mean": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_accuracy_percent_sample_std": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_accuracy_unit": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_encoding_seconds_mean": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_encoding_seconds_sample_std": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_feature_dimensions": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_macro_subject_accuracy_percent_mean": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_macro_subject_accuracy_percent_sample_std": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_matching_seconds_mean": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_matching_seconds_sample_std": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_method_set": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "aggregate_row_count": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "aggregate_sample_std_ddof": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_seed_count": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "aggregate_timing_unit": {
+      "count": 18,
+      "passed": 18,
+      "failed": 0
+    },
+    "all_remaining_images_are_probes": {
+      "count": 540,
+      "passed": 540,
+      "failed": 0
+    },
+    "csv_json_field_match": {
+      "count": 2772,
+      "passed": 2772,
+      "failed": 0
+    },
+    "csv_json_group_set": {
+      "count": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "csv_json_row_count": {
+      "count": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "each_method_match_path_in_same_gallery_split": {
+      "count": 53154,
+      "passed": 53154,
+      "failed": 0
+    },
+    "each_method_same_complete_test_split": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "each_subject_has_five_gallery_images": {
+      "count": 540,
+      "passed": 540,
+      "failed": 0
+    },
+    "eligible_identity_set": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "feature_dimension_from_config_and_shape": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "gallery_feature_shape_consistency": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "image_shape_matches_manifest_without_resize": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "lfwa_identity_has_more_than_ten_images": {
+      "count": 140,
+      "passed": 140,
+      "failed": 0
+    },
+    "lfwa_minimum_probe_count": {
+      "count": 10,
+      "passed": 10,
+      "failed": 0
+    },
+    "manifest_actual_file_sha256": {
+      "count": 13633,
+      "passed": 13633,
+      "failed": 0
+    },
+    "manifest_byte_length": {
+      "count": 13633,
+      "passed": 13633,
+      "failed": 0
+    },
+    "manifest_file_exists": {
+      "count": 13633,
+      "passed": 13633,
+      "failed": 0
+    },
+    "manifest_image_count": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "manifest_path_uniqueness": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "manifest_sha256_format": {
+      "count": 13633,
+      "passed": 13633,
+      "failed": 0
+    },
+    "manifest_subject_count": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "manifest_subject_distribution": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "method_count": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "minimum_images_configuration": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "orl_images_per_subject": {
+      "count": 400,
+      "passed": 400,
+      "failed": 0
+    },
+    "orl_probe_count": {
+      "count": 10,
+      "passed": 10,
+      "failed": 0
+    },
+    "per_prediction_correct_flag": {
+      "count": 53154,
+      "passed": 53154,
+      "failed": 0
+    },
+    "prediction_cosine_finite_range": {
+      "count": 53154,
+      "passed": 53154,
+      "failed": 0
+    },
+    "prediction_count_matches_split": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "prediction_label_matches_matched_gallery_label": {
+      "count": 53154,
+      "passed": 53154,
+      "failed": 0
+    },
+    "prediction_query_uniqueness": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "prediction_within_closed_set": {
+      "count": 53154,
+      "passed": 53154,
+      "failed": 0
+    },
+    "predictions_method_seed_coverage": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "query_feature_shape_consistency": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "result_accuracy_percent_from_predictions": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "result_correct_from_predictions": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "result_macro_subject_accuracy_percent_from_predictions": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "result_subject_count_from_predictions": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "result_subject_results_label_set": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "result_test_count_from_predictions": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "result_train_count_from_predictions": {
+      "count": 180,
+      "passed": 180,
+      "failed": 0
+    },
+    "results_group_uniqueness": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "results_method_seed_coverage": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "results_row_count": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "seed_list": {
+      "count": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "selected_identity_eligibility": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "selected_label_uniqueness": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "split_complete_selected_images": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "split_declared_test_count": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "split_declared_train_count": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "split_label_matches_manifest": {
+      "count": 8606,
+      "passed": 8606,
+      "failed": 0
+    },
+    "split_path_in_manifest": {
+      "count": 8606,
+      "passed": 8606,
+      "failed": 0
+    },
+    "split_seed": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "split_subject_count": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "split_test_path_uniqueness": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "split_train_count": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "split_train_path_uniqueness": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "subject_accuracy_from_predictions": {
+      "count": 4860,
+      "passed": 4860,
+      "failed": 0
+    },
+    "subject_correct_from_predictions": {
+      "count": 4860,
+      "passed": 4860,
+      "failed": 0
+    },
+    "subject_test_count_from_predictions": {
+      "count": 4860,
+      "passed": 4860,
+      "failed": 0
+    },
+    "test_labels_equal_selected": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "timing_finite_nonnegative": {
+      "count": 360,
+      "passed": 360,
+      "failed": 0
+    },
+    "train_labels_equal_selected": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "train_per_subject_configuration": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "train_test_exact_content_hash_review": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "train_test_path_disjoint": {
+      "count": 20,
+      "passed": 20,
+      "failed": 0
+    }
+  },
+  "datasets": {
+    "orl": {
+      "method_count": 9,
+      "seed_count": 10,
+      "result_count": 90,
+      "prediction_count": 18000,
+      "manifest_image_count": 400,
+      "manifest_subject_count": 40,
+      "actual_file_hash_mismatch_count": 0,
+      "split_summaries": [
+        {
+          "seed": 0,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 1,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 2,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 3,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 4,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 5,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 6,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 7,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 8,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 9,
+          "subject_count": 40,
+          "train_count": 200,
+          "test_count": 200,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        }
+      ],
+      "exact_content_duplicate_seeds": [],
+      "recomputed_metrics": [
+        {
+          "method": "raw",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 180,
+          "accuracy_percent": 90.0,
+          "macro_subject_accuracy_percent": 90.0
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 118,
+          "accuracy_percent": 59.0,
+          "macro_subject_accuracy_percent": 59.0
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 190,
+          "accuracy_percent": 95.0,
+          "macro_subject_accuracy_percent": 95.0
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 163,
+          "accuracy_percent": 81.5,
+          "macro_subject_accuracy_percent": 81.5
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 162,
+          "accuracy_percent": 81.0,
+          "macro_subject_accuracy_percent": 81.0
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 130,
+          "accuracy_percent": 65.0,
+          "macro_subject_accuracy_percent": 65.0
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 129,
+          "accuracy_percent": 64.5,
+          "macro_subject_accuracy_percent": 64.5
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 13,
+          "accuracy_percent": 6.5,
+          "macro_subject_accuracy_percent": 6.5
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 0,
+          "test_count": 200,
+          "correct": 4,
+          "accuracy_percent": 2.0,
+          "macro_subject_accuracy_percent": 2.0
+        },
+        {
+          "method": "raw",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 184,
+          "accuracy_percent": 92.0,
+          "macro_subject_accuracy_percent": 92.0
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 123,
+          "accuracy_percent": 61.5,
+          "macro_subject_accuracy_percent": 61.5
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 186,
+          "accuracy_percent": 93.0,
+          "macro_subject_accuracy_percent": 93.0
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 159,
+          "accuracy_percent": 79.5,
+          "macro_subject_accuracy_percent": 79.5
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 160,
+          "accuracy_percent": 80.0,
+          "macro_subject_accuracy_percent": 80.0
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 128,
+          "accuracy_percent": 64.0,
+          "macro_subject_accuracy_percent": 64.0
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 139,
+          "accuracy_percent": 69.5,
+          "macro_subject_accuracy_percent": 69.5
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 13,
+          "accuracy_percent": 6.5,
+          "macro_subject_accuracy_percent": 6.5
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 1,
+          "test_count": 200,
+          "correct": 8,
+          "accuracy_percent": 4.0,
+          "macro_subject_accuracy_percent": 4.0
+        },
+        {
+          "method": "raw",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 180,
+          "accuracy_percent": 90.0,
+          "macro_subject_accuracy_percent": 90.0
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 125,
+          "accuracy_percent": 62.5,
+          "macro_subject_accuracy_percent": 62.5
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 187,
+          "accuracy_percent": 93.5,
+          "macro_subject_accuracy_percent": 93.5
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 162,
+          "accuracy_percent": 81.0,
+          "macro_subject_accuracy_percent": 81.0
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 162,
+          "accuracy_percent": 81.0,
+          "macro_subject_accuracy_percent": 81.0
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 121,
+          "accuracy_percent": 60.5,
+          "macro_subject_accuracy_percent": 60.5
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 129,
+          "accuracy_percent": 64.5,
+          "macro_subject_accuracy_percent": 64.5
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 14,
+          "accuracy_percent": 7.0,
+          "macro_subject_accuracy_percent": 7.0
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 2,
+          "test_count": 200,
+          "correct": 7,
+          "accuracy_percent": 3.5,
+          "macro_subject_accuracy_percent": 3.5
+        },
+        {
+          "method": "raw",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 183,
+          "accuracy_percent": 91.5,
+          "macro_subject_accuracy_percent": 91.5
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 129,
+          "accuracy_percent": 64.5,
+          "macro_subject_accuracy_percent": 64.5
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 186,
+          "accuracy_percent": 93.0,
+          "macro_subject_accuracy_percent": 93.0
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 159,
+          "accuracy_percent": 79.5,
+          "macro_subject_accuracy_percent": 79.5
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 160,
+          "accuracy_percent": 80.0,
+          "macro_subject_accuracy_percent": 80.0
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 121,
+          "accuracy_percent": 60.5,
+          "macro_subject_accuracy_percent": 60.5
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 130,
+          "accuracy_percent": 65.0,
+          "macro_subject_accuracy_percent": 65.0
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 14,
+          "accuracy_percent": 7.0,
+          "macro_subject_accuracy_percent": 7.0
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 3,
+          "test_count": 200,
+          "correct": 10,
+          "accuracy_percent": 5.0,
+          "macro_subject_accuracy_percent": 5.0
+        },
+        {
+          "method": "raw",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 185,
+          "accuracy_percent": 92.5,
+          "macro_subject_accuracy_percent": 92.5
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 122,
+          "accuracy_percent": 61.0,
+          "macro_subject_accuracy_percent": 61.0
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 186,
+          "accuracy_percent": 93.0,
+          "macro_subject_accuracy_percent": 93.0
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 163,
+          "accuracy_percent": 81.5,
+          "macro_subject_accuracy_percent": 81.5
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 166,
+          "accuracy_percent": 83.0,
+          "macro_subject_accuracy_percent": 83.0
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 123,
+          "accuracy_percent": 61.5,
+          "macro_subject_accuracy_percent": 61.5
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 129,
+          "accuracy_percent": 64.5,
+          "macro_subject_accuracy_percent": 64.5
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 14,
+          "accuracy_percent": 7.0,
+          "macro_subject_accuracy_percent": 7.0
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 4,
+          "test_count": 200,
+          "correct": 6,
+          "accuracy_percent": 3.0,
+          "macro_subject_accuracy_percent": 3.0
+        },
+        {
+          "method": "raw",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 181,
+          "accuracy_percent": 90.5,
+          "macro_subject_accuracy_percent": 90.5
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 129,
+          "accuracy_percent": 64.5,
+          "macro_subject_accuracy_percent": 64.5
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 188,
+          "accuracy_percent": 94.0,
+          "macro_subject_accuracy_percent": 94.0
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 162,
+          "accuracy_percent": 81.0,
+          "macro_subject_accuracy_percent": 81.0
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 161,
+          "accuracy_percent": 80.5,
+          "macro_subject_accuracy_percent": 80.5
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 128,
+          "accuracy_percent": 64.0,
+          "macro_subject_accuracy_percent": 64.0
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 132,
+          "accuracy_percent": 66.0,
+          "macro_subject_accuracy_percent": 66.0
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 15,
+          "accuracy_percent": 7.5,
+          "macro_subject_accuracy_percent": 7.5
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 5,
+          "test_count": 200,
+          "correct": 9,
+          "accuracy_percent": 4.5,
+          "macro_subject_accuracy_percent": 4.5
+        },
+        {
+          "method": "raw",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 174,
+          "accuracy_percent": 87.0,
+          "macro_subject_accuracy_percent": 87.0
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 125,
+          "accuracy_percent": 62.5,
+          "macro_subject_accuracy_percent": 62.5
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 185,
+          "accuracy_percent": 92.5,
+          "macro_subject_accuracy_percent": 92.5
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 154,
+          "accuracy_percent": 77.0,
+          "macro_subject_accuracy_percent": 77.0
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 154,
+          "accuracy_percent": 77.0,
+          "macro_subject_accuracy_percent": 77.0
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 120,
+          "accuracy_percent": 60.0,
+          "macro_subject_accuracy_percent": 60.0
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 138,
+          "accuracy_percent": 69.0,
+          "macro_subject_accuracy_percent": 69.0
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 13,
+          "accuracy_percent": 6.5,
+          "macro_subject_accuracy_percent": 6.5
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 6,
+          "test_count": 200,
+          "correct": 3,
+          "accuracy_percent": 1.5,
+          "macro_subject_accuracy_percent": 1.5
+        },
+        {
+          "method": "raw",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 187,
+          "accuracy_percent": 93.5,
+          "macro_subject_accuracy_percent": 93.5
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 137,
+          "accuracy_percent": 68.5,
+          "macro_subject_accuracy_percent": 68.5
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 186,
+          "accuracy_percent": 93.0,
+          "macro_subject_accuracy_percent": 93.0
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 169,
+          "accuracy_percent": 84.5,
+          "macro_subject_accuracy_percent": 84.5
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 167,
+          "accuracy_percent": 83.5,
+          "macro_subject_accuracy_percent": 83.5
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 137,
+          "accuracy_percent": 68.5,
+          "macro_subject_accuracy_percent": 68.5
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 132,
+          "accuracy_percent": 66.0,
+          "macro_subject_accuracy_percent": 66.0
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 11,
+          "accuracy_percent": 5.5,
+          "macro_subject_accuracy_percent": 5.5
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 7,
+          "test_count": 200,
+          "correct": 7,
+          "accuracy_percent": 3.5,
+          "macro_subject_accuracy_percent": 3.5
+        },
+        {
+          "method": "raw",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 184,
+          "accuracy_percent": 92.0,
+          "macro_subject_accuracy_percent": 92.0
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 136,
+          "accuracy_percent": 68.0,
+          "macro_subject_accuracy_percent": 68.0
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 191,
+          "accuracy_percent": 95.5,
+          "macro_subject_accuracy_percent": 95.5
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 161,
+          "accuracy_percent": 80.5,
+          "macro_subject_accuracy_percent": 80.5
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 161,
+          "accuracy_percent": 80.5,
+          "macro_subject_accuracy_percent": 80.5
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 138,
+          "accuracy_percent": 69.0,
+          "macro_subject_accuracy_percent": 69.0
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 143,
+          "accuracy_percent": 71.5,
+          "macro_subject_accuracy_percent": 71.5
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 9,
+          "accuracy_percent": 4.5,
+          "macro_subject_accuracy_percent": 4.5
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 8,
+          "test_count": 200,
+          "correct": 4,
+          "accuracy_percent": 2.0,
+          "macro_subject_accuracy_percent": 2.0
+        },
+        {
+          "method": "raw",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 182,
+          "accuracy_percent": 91.0,
+          "macro_subject_accuracy_percent": 91.0
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 111,
+          "accuracy_percent": 55.5,
+          "macro_subject_accuracy_percent": 55.5
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 183,
+          "accuracy_percent": 91.5,
+          "macro_subject_accuracy_percent": 91.5
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 153,
+          "accuracy_percent": 76.5,
+          "macro_subject_accuracy_percent": 76.5
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 153,
+          "accuracy_percent": 76.5,
+          "macro_subject_accuracy_percent": 76.5
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 128,
+          "accuracy_percent": 64.0,
+          "macro_subject_accuracy_percent": 64.0
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 114,
+          "accuracy_percent": 57.0,
+          "macro_subject_accuracy_percent": 57.0
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 14,
+          "accuracy_percent": 7.0,
+          "macro_subject_accuracy_percent": 7.0
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 9,
+          "test_count": 200,
+          "correct": 10,
+          "accuracy_percent": 5.0,
+          "macro_subject_accuracy_percent": 5.0
+        }
+      ]
+    },
+    "lfwa": {
+      "method_count": 9,
+      "seed_count": 10,
+      "result_count": 90,
+      "prediction_count": 35154,
+      "manifest_image_count": 13233,
+      "manifest_subject_count": 5749,
+      "actual_file_hash_mismatch_count": 0,
+      "split_summaries": [
+        {
+          "seed": 0,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 373,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 1,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 795,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 2,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 760,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 3,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 315,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 4,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 462,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 5,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 369,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 6,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 196,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 7,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 196,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 8,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 236,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        },
+        {
+          "seed": 9,
+          "subject_count": 14,
+          "train_count": 70,
+          "test_count": 204,
+          "train_test_path_overlap_count": 0,
+          "train_test_identical_sha256_groups": 0
+        }
+      ],
+      "exact_content_duplicate_seeds": [],
+      "recomputed_metrics": [
+        {
+          "method": "raw",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 86,
+          "accuracy_percent": 23.056300268096514,
+          "macro_subject_accuracy_percent": 28.892568532037224
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 48,
+          "accuracy_percent": 12.868632707774799,
+          "macro_subject_accuracy_percent": 19.977581716196518
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 54,
+          "accuracy_percent": 14.47721179624665,
+          "macro_subject_accuracy_percent": 18.72778940259965
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 62,
+          "accuracy_percent": 16.621983914209114,
+          "macro_subject_accuracy_percent": 23.278487887121663
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 67,
+          "accuracy_percent": 17.962466487935657,
+          "macro_subject_accuracy_percent": 21.209339802793313
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 115,
+          "accuracy_percent": 30.831099195710454,
+          "macro_subject_accuracy_percent": 34.76637425404029
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 52,
+          "accuracy_percent": 13.941018766756033,
+          "macro_subject_accuracy_percent": 19.034534672580214
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 19,
+          "accuracy_percent": 5.093833780160858,
+          "macro_subject_accuracy_percent": 10.608678955453149
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 0,
+          "test_count": 373,
+          "correct": 28,
+          "accuracy_percent": 7.506702412868632,
+          "macro_subject_accuracy_percent": 12.664557137991673
+        },
+        {
+          "method": "raw",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 151,
+          "accuracy_percent": 18.9937106918239,
+          "macro_subject_accuracy_percent": 25.145137033792498
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 249,
+          "accuracy_percent": 31.32075471698113,
+          "macro_subject_accuracy_percent": 19.667396988825562
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 116,
+          "accuracy_percent": 14.59119496855346,
+          "macro_subject_accuracy_percent": 13.823039275770368
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 128,
+          "accuracy_percent": 16.10062893081761,
+          "macro_subject_accuracy_percent": 27.550117494445225
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 272,
+          "accuracy_percent": 34.21383647798742,
+          "macro_subject_accuracy_percent": 24.54242703087241
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 134,
+          "accuracy_percent": 16.855345911949687,
+          "macro_subject_accuracy_percent": 24.777411415016456
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 85,
+          "accuracy_percent": 10.69182389937107,
+          "macro_subject_accuracy_percent": 20.0529782483564
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 20,
+          "accuracy_percent": 2.5157232704402515,
+          "macro_subject_accuracy_percent": 7.970023595023596
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 1,
+          "test_count": 795,
+          "correct": 54,
+          "accuracy_percent": 6.7924528301886795,
+          "macro_subject_accuracy_percent": 7.7200925415211135
+        },
+        {
+          "method": "raw",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 79,
+          "accuracy_percent": 10.394736842105264,
+          "macro_subject_accuracy_percent": 17.144095678234333
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 31,
+          "accuracy_percent": 4.078947368421052,
+          "macro_subject_accuracy_percent": 14.693711568711569
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 53,
+          "accuracy_percent": 6.973684210526316,
+          "macro_subject_accuracy_percent": 13.816025775059389
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 80,
+          "accuracy_percent": 10.526315789473685,
+          "macro_subject_accuracy_percent": 26.354447340266667
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 43,
+          "accuracy_percent": 5.657894736842105,
+          "macro_subject_accuracy_percent": 16.40583499512071
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 279,
+          "accuracy_percent": 36.71052631578947,
+          "macro_subject_accuracy_percent": 22.204888163396568
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 58,
+          "accuracy_percent": 7.631578947368421,
+          "macro_subject_accuracy_percent": 19.62573140251712
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 32,
+          "accuracy_percent": 4.2105263157894735,
+          "macro_subject_accuracy_percent": 11.789021164021165
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 2,
+          "test_count": 760,
+          "correct": 26,
+          "accuracy_percent": 3.4210526315789473,
+          "macro_subject_accuracy_percent": 8.597859338930768
+        },
+        {
+          "method": "raw",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 85,
+          "accuracy_percent": 26.984126984126984,
+          "macro_subject_accuracy_percent": 24.944590391776906
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 19,
+          "accuracy_percent": 6.031746031746032,
+          "macro_subject_accuracy_percent": 10.187074829931973
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 43,
+          "accuracy_percent": 13.65079365079365,
+          "macro_subject_accuracy_percent": 14.856609208112967
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 79,
+          "accuracy_percent": 25.07936507936508,
+          "macro_subject_accuracy_percent": 23.5679071963331
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 57,
+          "accuracy_percent": 18.095238095238095,
+          "macro_subject_accuracy_percent": 22.556880781474526
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 88,
+          "accuracy_percent": 27.936507936507937,
+          "macro_subject_accuracy_percent": 30.101092499679694
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 65,
+          "accuracy_percent": 20.634920634920636,
+          "macro_subject_accuracy_percent": 17.58283473584832
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 35,
+          "accuracy_percent": 11.11111111111111,
+          "macro_subject_accuracy_percent": 9.144585253456222
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 3,
+          "test_count": 315,
+          "correct": 36,
+          "accuracy_percent": 11.428571428571429,
+          "macro_subject_accuracy_percent": 8.585231332927185
+        },
+        {
+          "method": "raw",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 75,
+          "accuracy_percent": 16.233766233766232,
+          "macro_subject_accuracy_percent": 21.4148925906887
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 37,
+          "accuracy_percent": 8.008658008658008,
+          "macro_subject_accuracy_percent": 10.474631686702871
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 73,
+          "accuracy_percent": 15.8008658008658,
+          "macro_subject_accuracy_percent": 20.385405081531534
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 82,
+          "accuracy_percent": 17.748917748917748,
+          "macro_subject_accuracy_percent": 28.660200450645952
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 74,
+          "accuracy_percent": 16.017316017316016,
+          "macro_subject_accuracy_percent": 23.332784151350857
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 148,
+          "accuracy_percent": 32.03463203463203,
+          "macro_subject_accuracy_percent": 35.215719833309414
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 65,
+          "accuracy_percent": 14.069264069264069,
+          "macro_subject_accuracy_percent": 21.63796287625021
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 29,
+          "accuracy_percent": 6.2770562770562774,
+          "macro_subject_accuracy_percent": 6.271183660973956
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 4,
+          "test_count": 462,
+          "correct": 27,
+          "accuracy_percent": 5.8441558441558445,
+          "macro_subject_accuracy_percent": 6.290995473383846
+        },
+        {
+          "method": "raw",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 72,
+          "accuracy_percent": 19.51219512195122,
+          "macro_subject_accuracy_percent": 21.63699125365153
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 97,
+          "accuracy_percent": 26.287262872628727,
+          "macro_subject_accuracy_percent": 18.733465113926425
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 65,
+          "accuracy_percent": 17.615176151761517,
+          "macro_subject_accuracy_percent": 22.668965604669232
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 111,
+          "accuracy_percent": 30.08130081300813,
+          "macro_subject_accuracy_percent": 24.023965922352787
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 83,
+          "accuracy_percent": 22.493224932249323,
+          "macro_subject_accuracy_percent": 19.76549792578902
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 82,
+          "accuracy_percent": 22.22222222222222,
+          "macro_subject_accuracy_percent": 24.013893453380344
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 92,
+          "accuracy_percent": 24.932249322493224,
+          "macro_subject_accuracy_percent": 21.77350648071926
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 108,
+          "accuracy_percent": 29.26829268292683,
+          "macro_subject_accuracy_percent": 12.156835755885087
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 5,
+          "test_count": 369,
+          "correct": 102,
+          "accuracy_percent": 27.642276422764226,
+          "macro_subject_accuracy_percent": 13.156939539667944
+        },
+        {
+          "method": "raw",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 39,
+          "accuracy_percent": 19.897959183673468,
+          "macro_subject_accuracy_percent": 21.47048129737411
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 25,
+          "accuracy_percent": 12.755102040816327,
+          "macro_subject_accuracy_percent": 18.250013183568
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 34,
+          "accuracy_percent": 17.346938775510203,
+          "macro_subject_accuracy_percent": 22.854603285622694
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 54,
+          "accuracy_percent": 27.551020408163264,
+          "macro_subject_accuracy_percent": 26.088171702789644
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 55,
+          "accuracy_percent": 28.06122448979592,
+          "macro_subject_accuracy_percent": 28.57169224278859
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 58,
+          "accuracy_percent": 29.591836734693878,
+          "macro_subject_accuracy_percent": 30.796977909891005
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 49,
+          "accuracy_percent": 25.0,
+          "macro_subject_accuracy_percent": 30.454767178189105
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 20,
+          "accuracy_percent": 10.204081632653061,
+          "macro_subject_accuracy_percent": 13.755734852080368
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 6,
+          "test_count": 196,
+          "correct": 15,
+          "accuracy_percent": 7.653061224489796,
+          "macro_subject_accuracy_percent": 7.795530492898914
+        },
+        {
+          "method": "raw",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 39,
+          "accuracy_percent": 19.897959183673468,
+          "macro_subject_accuracy_percent": 17.091491335412307
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 23,
+          "accuracy_percent": 11.73469387755102,
+          "macro_subject_accuracy_percent": 14.176091132778064
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 36,
+          "accuracy_percent": 18.367346938775512,
+          "macro_subject_accuracy_percent": 17.299087268692134
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 47,
+          "accuracy_percent": 23.979591836734695,
+          "macro_subject_accuracy_percent": 18.578320109475126
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 54,
+          "accuracy_percent": 27.551020408163264,
+          "macro_subject_accuracy_percent": 26.77462313100611
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 68,
+          "accuracy_percent": 34.69387755102041,
+          "macro_subject_accuracy_percent": 35.79925393755181
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 44,
+          "accuracy_percent": 22.448979591836736,
+          "macro_subject_accuracy_percent": 18.504898090764353
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 11,
+          "accuracy_percent": 5.612244897959184,
+          "macro_subject_accuracy_percent": 9.358324890239784
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 7,
+          "test_count": 196,
+          "correct": 10,
+          "accuracy_percent": 5.1020408163265305,
+          "macro_subject_accuracy_percent": 6.387803348289671
+        },
+        {
+          "method": "raw",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 58,
+          "accuracy_percent": 24.576271186440678,
+          "macro_subject_accuracy_percent": 19.22222060214099
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 32,
+          "accuracy_percent": 13.559322033898304,
+          "macro_subject_accuracy_percent": 9.828931572629052
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 45,
+          "accuracy_percent": 19.06779661016949,
+          "macro_subject_accuracy_percent": 17.588175621125643
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 47,
+          "accuracy_percent": 19.915254237288135,
+          "macro_subject_accuracy_percent": 17.880207413599717
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 65,
+          "accuracy_percent": 27.54237288135593,
+          "macro_subject_accuracy_percent": 18.273162841384867
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 63,
+          "accuracy_percent": 26.694915254237287,
+          "macro_subject_accuracy_percent": 27.15923413899973
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 47,
+          "accuracy_percent": 19.915254237288135,
+          "macro_subject_accuracy_percent": 18.44925892084229
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 34,
+          "accuracy_percent": 14.40677966101695,
+          "macro_subject_accuracy_percent": 7.142857142857143
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 8,
+          "test_count": 236,
+          "correct": 37,
+          "accuracy_percent": 15.677966101694915,
+          "macro_subject_accuracy_percent": 9.96571705605319
+        },
+        {
+          "method": "raw",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 31,
+          "accuracy_percent": 15.196078431372548,
+          "macro_subject_accuracy_percent": 18.972009500125
+        },
+        {
+          "method": "lbp_raw",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 35,
+          "accuracy_percent": 17.15686274509804,
+          "macro_subject_accuracy_percent": 15.989711487431851
+        },
+        {
+          "method": "lbp_hist",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 26,
+          "accuracy_percent": 12.745098039215685,
+          "macro_subject_accuracy_percent": 14.349454159484555
+        },
+        {
+          "method": "enlbp_mean_gt",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 44,
+          "accuracy_percent": 21.568627450980394,
+          "macro_subject_accuracy_percent": 23.059958025763496
+        },
+        {
+          "method": "enlbp_mean_ge",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 45,
+          "accuracy_percent": 22.058823529411764,
+          "macro_subject_accuracy_percent": 21.938210809791357
+        },
+        {
+          "method": "enlbp_mean_l2",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 61,
+          "accuracy_percent": 29.901960784313726,
+          "macro_subject_accuracy_percent": 31.436839081215982
+        },
+        {
+          "method": "enlbp_mean_block",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 35,
+          "accuracy_percent": 17.15686274509804,
+          "macro_subject_accuracy_percent": 18.293212191388484
+        },
+        {
+          "method": "enlbp_algorithm",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 28,
+          "accuracy_percent": 13.72549019607843,
+          "macro_subject_accuracy_percent": 10.819221305543495
+        },
+        {
+          "method": "enlbp_algorithm_l2",
+          "seed": 9,
+          "test_count": 204,
+          "correct": 10,
+          "accuracy_percent": 4.901960784313726,
+          "macro_subject_accuracy_percent": 7.323177497949535
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "limitations": [
+    "Shared gallery checks verify recorded split counts and each reported matched_train_path; exported files do not contain every per-method gallery feature row, so this audit does not independently rebuild the feature matrix.",
+    "SHA256 overlap checks exact image-file bytes; near duplicates or identical decoded pixels in differently encoded files are not detected.",
+    "Aggregate timing summaries are recalculated from reported per-run times; wall-clock measurements are not independently repeated."
+  ]
+}

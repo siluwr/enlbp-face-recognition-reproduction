@@ -1,0 +1,3633 @@
+{
+  "seed": 1,
+  "rng": "numpy.random.default_rng / PCG64",
+  "selected_labels": [
+    "Amelie_Mauresmo",
+    "Carlos_Moya",
+    "George_W_Bush",
+    "Gordon_Brown",
+    "Hans_Blix",
+    "Jennifer_Capriati",
+    "Jennifer_Lopez",
+    "John_Ashcroft",
+    "Mohammed_Al-Douri",
+    "Queen_Elizabeth_II",
+    "Roh_Moo-hyun",
+    "Saddam_Hussein",
+    "Silvio_Berlusconi",
+    "Tang_Jiaxuan"
+  ],
+  "eligible_labels": [
+    "Abdullah_Gul",
+    "Adrien_Brody",
+    "Alejandro_Toledo",
+    "Alvaro_Uribe",
+    "Amelie_Mauresmo",
+    "Andre_Agassi",
+    "Andy_Roddick",
+    "Angelina_Jolie",
+    "Ann_Veneman",
+    "Anna_Kournikova",
+    "Ari_Fleischer",
+    "Ariel_Sharon",
+    "Arnold_Schwarzenegger",
+    "Atal_Bihari_Vajpayee",
+    "Bill_Clinton",
+    "Bill_Gates",
+    "Bill_Simon",
+    "Britney_Spears",
+    "Carlos_Menem",
+    "Carlos_Moya",
+    "Catherine_Zeta-Jones",
+    "Charles_Moose",
+    "Colin_Powell",
+    "Condoleezza_Rice",
+    "David_Beckham",
+    "David_Nalbandian",
+    "Dick_Cheney",
+    "Dominique_de_Villepin",
+    "Donald_Rumsfeld",
+    "Edmund_Stoiber",
+    "Eduardo_Duhalde",
+    "Fidel_Castro",
+    "George_HW_Bush",
+    "George_Robertson",
+    "George_W_Bush",
+    "Gerhard_Schroeder",
+    "Gloria_Macapagal_Arroyo",
+    "Gonzalo_Sanchez_de_Lozada",
+    "Gordon_Brown",
+    "Gray_Davis",
+    "Guillermo_Coria",
+    "Halle_Berry",
+    "Hamid_Karzai",
+    "Hans_Blix",
+    "Harrison_Ford",
+    "Hillary_Clinton",
+    "Howard_Dean",
+    "Hu_Jintao",
+    "Hugo_Chavez",
+    "Igor_Ivanov",
+    "Jack_Straw",
+    "Jackie_Chan",
+    "Jacques_Chirac",
+    "James_Blake",
+    "James_Kelly",
+    "Jean_Charest",
+    "Jean_Chretien",
+    "Jeb_Bush",
+    "Jennifer_Aniston",
+    "Jennifer_Capriati",
+    "Jennifer_Garner",
+    "Jennifer_Lopez",
+    "Jeremy_Greenstock",
+    "Jiang_Zemin",
+    "Jiri_Novak",
+    "Joe_Lieberman",
+    "John_Allen_Muhammad",
+    "John_Ashcroft",
+    "John_Bolton",
+    "John_Howard",
+    "John_Kerry",
+    "John_Negroponte",
+    "John_Paul_II",
+    "John_Snow",
+    "Joschka_Fischer",
+    "Jose_Maria_Aznar",
+    "Juan_Carlos_Ferrero",
+    "Julianne_Moore",
+    "Julie_Gerberding",
+    "Junichiro_Koizumi",
+    "Keanu_Reeves",
+    "Kim_Clijsters",
+    "Kim_Ryong-sung",
+    "Kofi_Annan",
+    "Lance_Armstrong",
+    "Laura_Bush",
+    "Lindsay_Davenport",
+    "Lleyton_Hewitt",
+    "Lucio_Gutierrez",
+    "Luiz_Inacio_Lula_da_Silva",
+    "Mahathir_Mohamad",
+    "Mahmoud_Abbas",
+    "Mark_Philippoussis",
+    "Megawati_Sukarnoputri",
+    "Meryl_Streep",
+    "Michael_Bloomberg",
+    "Michael_Jackson",
+    "Michael_Schumacher",
+    "Mike_Weir",
+    "Mohammed_Al-Douri",
+    "Nancy_Pelosi",
+    "Naomi_Watts",
+    "Nestor_Kirchner",
+    "Nicanor_Duarte_Frutos",
+    "Nicole_Kidman",
+    "Norah_Jones",
+    "Paul_Bremer",
+    "Paul_Burrell",
+    "Pervez_Musharraf",
+    "Pete_Sampras",
+    "Pierce_Brosnan",
+    "Queen_Elizabeth_II",
+    "Recep_Tayyip_Erdogan",
+    "Renee_Zellweger",
+    "Ricardo_Lagos",
+    "Richard_Gephardt",
+    "Richard_Myers",
+    "Roger_Federer",
+    "Roh_Moo-hyun",
+    "Rubens_Barrichello",
+    "Rudolph_Giuliani",
+    "Saddam_Hussein",
+    "Salma_Hayek",
+    "Serena_Williams",
+    "Sergey_Lavrov",
+    "Sergio_Vieira_De_Mello",
+    "Silvio_Berlusconi",
+    "Spencer_Abraham",
+    "Taha_Yassin_Ramadan",
+    "Tang_Jiaxuan",
+    "Tiger_Woods",
+    "Tim_Henman",
+    "Tom_Daschle",
+    "Tom_Ridge",
+    "Tommy_Franks",
+    "Tony_Blair",
+    "Trent_Lott",
+    "Venus_Williams",
+    "Vicente_Fox",
+    "Vladimir_Putin",
+    "Wen_Jiabao",
+    "Winona_Ryder",
+    "Yoriko_Kawaguchi"
+  ],
+  "train_per_person": 5,
+  "min_images": 11,
+  "train_count": 70,
+  "test_count": 795,
+  "train": [
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0001.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0008.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0010.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0011.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0021.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0001.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0006.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0012.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0016.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0019.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0129.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0151.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0267.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0287.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0400.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0002.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0003.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0004.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0006.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0013.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0013.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0023.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0026.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0032.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0039.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0001.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0002.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0007.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0015.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0036.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0011.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0012.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0013.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0018.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0020.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0001.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0006.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0014.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0024.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0052.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0001.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0004.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0012.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0013.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0015.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0001.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0005.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0007.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0008.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0009.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0003.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0009.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0016.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0024.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0027.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0001.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0003.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0016.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0019.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0020.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0005.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0011.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0015.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0026.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0028.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0003.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0005.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0008.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0009.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0010.jpg",
+      "label": "Tang_Jiaxuan"
+    }
+  ],
+  "test": [
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0002.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0003.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0004.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0005.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0006.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0007.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0009.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0012.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0013.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0014.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0015.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0016.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0017.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0018.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0019.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Amelie_Mauresmo/Amelie_Mauresmo_0020.jpg",
+      "label": "Amelie_Mauresmo"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0002.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0003.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0004.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0005.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0007.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0008.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0009.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0010.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0011.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0013.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0014.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0015.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0017.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/Carlos_Moya/Carlos_Moya_0018.jpg",
+      "label": "Carlos_Moya"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0001.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0002.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0003.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0004.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0005.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0006.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0007.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0008.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0009.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0010.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0011.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0012.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0013.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0014.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0015.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0016.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0017.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0018.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0019.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0020.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0021.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0022.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0023.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0024.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0025.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0026.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0027.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0028.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0029.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0030.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0031.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0032.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0033.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0034.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0035.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0036.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0037.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0038.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0039.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0040.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0041.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0042.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0043.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0044.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0045.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0046.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0047.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0048.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0049.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0050.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0051.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0052.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0053.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0054.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0055.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0056.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0057.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0058.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0059.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0060.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0061.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0062.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0063.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0064.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0065.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0066.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0067.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0068.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0069.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0070.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0071.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0072.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0073.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0074.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0075.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0076.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0077.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0078.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0079.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0080.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0081.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0082.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0083.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0084.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0085.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0086.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0087.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0088.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0089.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0090.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0091.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0092.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0093.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0094.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0095.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0096.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0097.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0098.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0099.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0100.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0101.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0102.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0103.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0104.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0105.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0106.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0107.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0108.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0109.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0110.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0111.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0112.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0113.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0114.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0115.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0116.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0117.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0118.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0119.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0120.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0121.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0122.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0123.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0124.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0125.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0126.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0127.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0128.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0130.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0131.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0132.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0133.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0134.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0135.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0136.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0137.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0138.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0139.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0140.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0141.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0142.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0143.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0144.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0145.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0146.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0147.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0148.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0149.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0150.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0152.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0153.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0154.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0155.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0156.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0157.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0158.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0159.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0160.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0161.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0162.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0163.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0164.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0165.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0166.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0167.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0168.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0169.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0170.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0171.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0172.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0173.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0174.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0175.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0176.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0177.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0178.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0179.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0180.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0181.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0182.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0183.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0184.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0185.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0186.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0187.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0188.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0189.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0190.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0191.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0192.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0193.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0194.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0195.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0196.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0197.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0198.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0199.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0200.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0201.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0202.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0203.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0204.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0205.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0206.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0207.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0208.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0209.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0210.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0211.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0212.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0213.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0214.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0215.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0216.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0217.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0218.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0219.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0220.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0221.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0222.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0223.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0224.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0225.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0226.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0227.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0228.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0229.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0230.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0231.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0232.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0233.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0234.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0235.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0236.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0237.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0238.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0239.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0240.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0241.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0242.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0243.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0244.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0245.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0246.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0247.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0248.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0249.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0250.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0251.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0252.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0253.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0254.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0255.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0256.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0257.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0258.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0259.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0260.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0261.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0262.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0263.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0264.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0265.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0266.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0268.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0269.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0270.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0271.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0272.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0273.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0274.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0275.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0276.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0277.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0278.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0279.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0280.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0281.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0282.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0283.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0284.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0285.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0286.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0288.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0289.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0290.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0291.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0292.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0293.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0294.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0295.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0296.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0297.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0298.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0299.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0300.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0301.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0302.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0303.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0304.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0305.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0306.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0307.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0308.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0309.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0310.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0311.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0312.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0313.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0314.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0315.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0316.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0317.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0318.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0319.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0320.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0321.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0322.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0323.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0324.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0325.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0326.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0327.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0328.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0329.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0330.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0331.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0332.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0333.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0334.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0335.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0336.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0337.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0338.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0339.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0340.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0341.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0342.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0343.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0344.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0345.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0346.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0347.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0348.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0349.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0350.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0351.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0352.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0353.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0354.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0355.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0356.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0357.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0358.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0359.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0360.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0361.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0362.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0363.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0364.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0365.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0366.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0367.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0368.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0369.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0370.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0371.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0372.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0373.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0374.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0375.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0376.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0377.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0378.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0379.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0380.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0381.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0382.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0383.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0384.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0385.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0386.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0387.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0388.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0389.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0390.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0391.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0392.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0393.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0394.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0395.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0396.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0397.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0398.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0399.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0401.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0402.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0403.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0404.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0405.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0406.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0407.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0408.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0409.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0410.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0411.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0412.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0413.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0414.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0415.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0416.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0417.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0418.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0419.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0420.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0421.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0422.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0423.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0424.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0425.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0426.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0427.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0428.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0429.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0430.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0431.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0432.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0433.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0434.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0435.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0436.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0437.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0438.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0439.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0440.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0441.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0442.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0443.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0444.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0445.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0446.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0447.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0448.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0449.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0450.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0451.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0452.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0453.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0454.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0455.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0456.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0457.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0458.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0459.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0460.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0461.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0462.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0463.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0464.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0465.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0466.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0467.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0468.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0469.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0470.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0471.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0472.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0473.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0474.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0475.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0476.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0477.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0478.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0479.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0480.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0481.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0482.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0483.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0484.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0485.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0486.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0487.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0488.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0489.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0490.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0491.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0492.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0493.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0494.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0495.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0496.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0497.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0498.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0499.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0500.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0501.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0502.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0503.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0504.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0505.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0506.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0507.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0508.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0509.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0510.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0511.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0512.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0513.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0514.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0515.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0516.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0517.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0518.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0519.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0520.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0521.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0522.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0523.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0524.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0525.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0526.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0527.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0528.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0529.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/George_W_Bush/George_W_Bush_0530.jpg",
+      "label": "George_W_Bush"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0001.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0005.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0007.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0008.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0009.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0010.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0011.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Gordon_Brown/Gordon_Brown_0012.jpg",
+      "label": "Gordon_Brown"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0001.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0002.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0003.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0004.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0005.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0006.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0007.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0008.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0009.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0010.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0011.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0012.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0014.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0015.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0016.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0017.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0018.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0019.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0020.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0021.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0022.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0024.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0025.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0027.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0028.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0029.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0030.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0031.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0033.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0034.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0035.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0036.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0037.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0038.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0003.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0004.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0005.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0006.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0008.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0009.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0010.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0011.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0012.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0013.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0014.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0016.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0017.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0018.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0019.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0020.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0021.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0022.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0023.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0024.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0025.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0026.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0027.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0028.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0029.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0030.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0031.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0032.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0033.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0034.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0035.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0037.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0038.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0039.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0040.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0041.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Capriati/Jennifer_Capriati_0042.jpg",
+      "label": "Jennifer_Capriati"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0001.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0002.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0003.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0004.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0005.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0006.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0007.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0008.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0009.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0010.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0014.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0015.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0016.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0017.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0019.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/Jennifer_Lopez/Jennifer_Lopez_0021.jpg",
+      "label": "Jennifer_Lopez"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0002.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0003.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0004.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0005.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0007.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0008.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0009.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0010.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0011.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0012.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0013.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0015.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0016.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0017.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0018.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0019.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0020.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0021.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0022.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0023.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0025.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0026.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0027.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0028.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0029.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0030.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0031.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0032.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0033.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0034.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0035.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0036.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0037.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0038.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0039.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0040.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0041.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0042.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0043.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0044.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0045.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0046.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0047.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0048.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0049.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0050.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0051.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/John_Ashcroft/John_Ashcroft_0053.jpg",
+      "label": "John_Ashcroft"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0002.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0003.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0005.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0006.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0007.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0008.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0009.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0010.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0011.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Mohammed_Al-Douri/Mohammed_Al-Douri_0014.jpg",
+      "label": "Mohammed_Al-Douri"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0002.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0003.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0004.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0006.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0010.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0011.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0012.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Queen_Elizabeth_II/Queen_Elizabeth_II_0013.jpg",
+      "label": "Queen_Elizabeth_II"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0001.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0002.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0004.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0005.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0006.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0007.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0008.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0010.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0011.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0012.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0013.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0014.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0015.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0017.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0018.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0019.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0020.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0021.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0022.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0023.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0025.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0026.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0028.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0029.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0030.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0031.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Roh_Moo-hyun/Roh_Moo-hyun_0032.jpg",
+      "label": "Roh_Moo-hyun"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0002.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0004.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0005.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0006.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0007.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0008.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0009.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0010.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0011.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0012.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0013.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0014.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0015.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0017.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0018.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0021.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0022.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Saddam_Hussein/Saddam_Hussein_0023.jpg",
+      "label": "Saddam_Hussein"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0001.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0002.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0003.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0004.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0006.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0007.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0008.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0009.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0010.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0012.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0013.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0014.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0016.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0017.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0018.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0019.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0020.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0021.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0022.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0023.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0024.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0025.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0027.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0029.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0030.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0031.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0032.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Silvio_Berlusconi/Silvio_Berlusconi_0033.jpg",
+      "label": "Silvio_Berlusconi"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0001.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0002.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0004.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0006.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0007.jpg",
+      "label": "Tang_Jiaxuan"
+    },
+    {
+      "path": "lfw2/lfw2/Tang_Jiaxuan/Tang_Jiaxuan_0011.jpg",
+      "label": "Tang_Jiaxuan"
+    }
+  ]
+}

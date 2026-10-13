@@ -1,0 +1,53 @@
+{
+  "source_image": "data/orl/s1/1.pgm",
+  "transformations": [
+    "Pillow grayscale conversion",
+    "nonoverlapping 3x3 block means",
+    "valid dense LBP, no padding, E/NE/N/NW/W/SW/S/SE bit order",
+    "EnLBP strict > comparison, 1 and 2 levels"
+  ],
+  "panels": [
+    {
+      "label": "Original",
+      "shape": [
+        112,
+        92
+      ],
+      "dimension": 10304
+    },
+    {
+      "label": "3x3 block means",
+      "shape": [
+        37,
+        30
+      ],
+      "dimension": 1110
+    },
+    {
+      "label": "Dense LBP (>=)",
+      "shape": [
+        110,
+        90
+      ],
+      "dimension": 9900
+    },
+    {
+      "label": "EnLBP (>), level 1",
+      "shape": [
+        35,
+        28
+      ],
+      "dimension": 980
+    },
+    {
+      "label": "EnLBP (>), level 2",
+      "shape": [
+        9,
+        7
+      ],
+      "dimension": 63
+    }
+  ],
+  "display": "grayscale [0,255], nearest pixel rendering; no contrast adjustment",
+  "destination": "general classroom explanation; no publisher-specific claims"
+}

@@ -1,0 +1,54 @@
+{
+  "purpose": "independent reconstruction; not original author source code",
+  "client_run_date": "2026-10-13",
+  "client_timezone": "Asia/Shanghai",
+  "executed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "datasets": [
+    "orl",
+    "lfwa"
+  ],
+  "methods_per_dataset": 9,
+  "blas_thread_environment_used": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "test_result": {
+    "passed": 46,
+    "command": "python -m pytest -q"
+  },
+  "code_sha256": {
+    "build_artifacts.py": "264971452291d4d4a52992fac067483c77eebab4efa42f08711d2c612d6a3106",
+    "download_data.py": "4659672cc802b146d4994f9d5df87c43ed65913cd0a5119198d244db3a826dfb",
+    "enlbp/__init__.py": "995c0b03632396c77c915e5269821071bcb2f74c61ecd40df4808604037c185f",
+    "enlbp/datasets.py": "8a8c97b892fde4eeb8698ab311a1a70e9a4d412343ada5aab3e558db839bdb84",
+    "enlbp/descriptors.py": "f6288869a36387b2502c0b6e8957f49c14ece75be3b79512532def8fd7e2d97c",
+    "enlbp/matching.py": "b9fe649b0fedaf6c1bddceaf795d508a8f0f2dfc51926d4e2f30d677169b2b63",
+    "finalize_artifacts.py": "ad378b119be7b4fb4245ae2e122309251ef82e1fa830581d9e4ef0a86d878366",
+    "pytest.ini": "bed0eef85a1acb036659bf5310a63fcb9dcbb9db06984b791934df3a4d605dc8",
+    "requirements.txt": "923691eae2ae652af15630c6bd61e242caa7d5557698a512906c52b1507b3426",
+    "run_experiment.py": "e88fa8a918b9a87898b90d68df5a918b6569fe6eec0a1f8f48f7f0f7a21189df",
+    "tests/test_descriptors.py": "2433b126e251fc937951ab83b246a432e11ac5317de2e0c33029d6babf47940c",
+    "tests/test_matching.py": "49f8fff4f03f5aee6d2dc936c5289c84c7de74c5747c8a91baa4d55ffc68c255",
+    "tests/test_protocol.py": "8018bd1f6687a96d98fa3b23dbf1a1f865aacf83fcc69ab4605df92783808ecc",
+    "visualize_results.py": "787c1558529917448412513a2f3e1418ec672ccb1009871904b14df8043196ce"
+  },
+  "paper_source_record": "paper/source.json",
+  "independent_result_audit": "outputs/validation_audit.json",
+  "notebook_validation": {
+    "executed_code_cells": 7,
+    "errors": 0
+  },
+  "independent_result_audit_status": "pass"
+}
