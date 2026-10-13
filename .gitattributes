@@ -6,3 +6,7 @@
 *.ipynb text eol=lf
 *.png binary
 *.zip binary
+# Preserve exact bytes covered by the comparison provenance SHA-256 records.
+outputs/lbp_enlbp_orl/** -text
+outputs/lbp_enlbp_lfwa/** -text
+outputs/reference_figures/** -text

@@ -1,0 +1,3882 @@
+[
+  {
+    "method": "lbp_raw",
+    "seed": 0,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 373,
+    "correct": 48,
+    "accuracy_percent": 12.868632707774799,
+    "macro_subject_accuracy_percent": 19.977581716196514,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      373,
+      61504
+    ],
+    "encoding_seconds": 0.40949989999899117,
+    "matching_seconds": 0.3026235999986966,
+    "subject_results": {
+      "Alejandro_Toledo": {
+        "correct": 1,
+        "test_count": 34,
+        "accuracy_percent": 2.941176470588235
+      },
+      "Andre_Agassi": {
+        "correct": 23,
+        "test_count": 31,
+        "accuracy_percent": 74.19354838709677
+      },
+      "Ari_Fleischer": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "David_Beckham": {
+        "correct": 0,
+        "test_count": 26,
+        "accuracy_percent": 0.0
+      },
+      "Gerhard_Schroeder": {
+        "correct": 2,
+        "test_count": 104,
+        "accuracy_percent": 1.9230769230769231
+      },
+      "Halle_Berry": {
+        "correct": 4,
+        "test_count": 11,
+        "accuracy_percent": 36.36363636363637
+      },
+      "John_Ashcroft": {
+        "correct": 0,
+        "test_count": 48,
+        "accuracy_percent": 0.0
+      },
+      "John_Negroponte": {
+        "correct": 0,
+        "test_count": 26,
+        "accuracy_percent": 0.0
+      },
+      "Kofi_Annan": {
+        "correct": 0,
+        "test_count": 27,
+        "accuracy_percent": 0.0
+      },
+      "Lindsay_Davenport": {
+        "correct": 2,
+        "test_count": 17,
+        "accuracy_percent": 11.76470588235294
+      },
+      "Mahathir_Mohamad": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Pierce_Brosnan": {
+        "correct": 9,
+        "test_count": 10,
+        "accuracy_percent": 90.0
+      },
+      "Renee_Zellweger": {
+        "correct": 6,
+        "test_count": 12,
+        "accuracy_percent": 50.0
+      },
+      "Taha_Yassin_Ramadan": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 0,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 373,
+    "correct": 54,
+    "accuracy_percent": 14.47721179624665,
+    "macro_subject_accuracy_percent": 18.727789402599647,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      373,
+      16384
+    ],
+    "encoding_seconds": 0.5684726999988925,
+    "matching_seconds": 0.07777449999957753,
+    "subject_results": {
+      "Alejandro_Toledo": {
+        "correct": 8,
+        "test_count": 34,
+        "accuracy_percent": 23.52941176470588
+      },
+      "Andre_Agassi": {
+        "correct": 4,
+        "test_count": 31,
+        "accuracy_percent": 12.903225806451612
+      },
+      "Ari_Fleischer": {
+        "correct": 3,
+        "test_count": 8,
+        "accuracy_percent": 37.5
+      },
+      "David_Beckham": {
+        "correct": 1,
+        "test_count": 26,
+        "accuracy_percent": 3.8461538461538463
+      },
+      "Gerhard_Schroeder": {
+        "correct": 13,
+        "test_count": 104,
+        "accuracy_percent": 12.5
+      },
+      "Halle_Berry": {
+        "correct": 5,
+        "test_count": 11,
+        "accuracy_percent": 45.45454545454545
+      },
+      "John_Ashcroft": {
+        "correct": 1,
+        "test_count": 48,
+        "accuracy_percent": 2.083333333333333
+      },
+      "John_Negroponte": {
+        "correct": 5,
+        "test_count": 26,
+        "accuracy_percent": 19.230769230769234
+      },
+      "Kofi_Annan": {
+        "correct": 4,
+        "test_count": 27,
+        "accuracy_percent": 14.814814814814813
+      },
+      "Lindsay_Davenport": {
+        "correct": 1,
+        "test_count": 17,
+        "accuracy_percent": 5.88235294117647
+      },
+      "Mahathir_Mohamad": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Pierce_Brosnan": {
+        "correct": 2,
+        "test_count": 10,
+        "accuracy_percent": 20.0
+      },
+      "Renee_Zellweger": {
+        "correct": 4,
+        "test_count": 12,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Taha_Yassin_Ramadan": {
+        "correct": 2,
+        "test_count": 10,
+        "accuracy_percent": 20.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 0,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 373,
+    "correct": 62,
+    "accuracy_percent": 16.621983914209114,
+    "macro_subject_accuracy_percent": 23.27848788712166,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      373,
+      6561
+    ],
+    "encoding_seconds": 0.15208849999908125,
+    "matching_seconds": 0.031132399999478366,
+    "subject_results": {
+      "Alejandro_Toledo": {
+        "correct": 5,
+        "test_count": 34,
+        "accuracy_percent": 14.705882352941178
+      },
+      "Andre_Agassi": {
+        "correct": 4,
+        "test_count": 31,
+        "accuracy_percent": 12.903225806451612
+      },
+      "Ari_Fleischer": {
+        "correct": 4,
+        "test_count": 8,
+        "accuracy_percent": 50.0
+      },
+      "David_Beckham": {
+        "correct": 8,
+        "test_count": 26,
+        "accuracy_percent": 30.76923076923077
+      },
+      "Gerhard_Schroeder": {
+        "correct": 6,
+        "test_count": 104,
+        "accuracy_percent": 5.769230769230769
+      },
+      "Halle_Berry": {
+        "correct": 5,
+        "test_count": 11,
+        "accuracy_percent": 45.45454545454545
+      },
+      "John_Ashcroft": {
+        "correct": 6,
+        "test_count": 48,
+        "accuracy_percent": 12.5
+      },
+      "John_Negroponte": {
+        "correct": 7,
+        "test_count": 26,
+        "accuracy_percent": 26.923076923076923
+      },
+      "Kofi_Annan": {
+        "correct": 1,
+        "test_count": 27,
+        "accuracy_percent": 3.7037037037037033
+      },
+      "Lindsay_Davenport": {
+        "correct": 8,
+        "test_count": 17,
+        "accuracy_percent": 47.05882352941176
+      },
+      "Mahathir_Mohamad": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Pierce_Brosnan": {
+        "correct": 2,
+        "test_count": 10,
+        "accuracy_percent": 20.0
+      },
+      "Renee_Zellweger": {
+        "correct": 3,
+        "test_count": 12,
+        "accuracy_percent": 25.0
+      },
+      "Taha_Yassin_Ramadan": {
+        "correct": 2,
+        "test_count": 10,
+        "accuracy_percent": 20.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 0,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 373,
+    "correct": 67,
+    "accuracy_percent": 17.962466487935657,
+    "macro_subject_accuracy_percent": 21.209339802793316,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      373,
+      6561
+    ],
+    "encoding_seconds": 0.15292179999960354,
+    "matching_seconds": 0.03096170000026177,
+    "subject_results": {
+      "Alejandro_Toledo": {
+        "correct": 22,
+        "test_count": 34,
+        "accuracy_percent": 64.70588235294117
+      },
+      "Andre_Agassi": {
+        "correct": 14,
+        "test_count": 31,
+        "accuracy_percent": 45.16129032258064
+      },
+      "Ari_Fleischer": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "David_Beckham": {
+        "correct": 2,
+        "test_count": 26,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Gerhard_Schroeder": {
+        "correct": 10,
+        "test_count": 104,
+        "accuracy_percent": 9.615384615384617
+      },
+      "Halle_Berry": {
+        "correct": 2,
+        "test_count": 11,
+        "accuracy_percent": 18.181818181818183
+      },
+      "John_Ashcroft": {
+        "correct": 0,
+        "test_count": 48,
+        "accuracy_percent": 0.0
+      },
+      "John_Negroponte": {
+        "correct": 0,
+        "test_count": 26,
+        "accuracy_percent": 0.0
+      },
+      "Kofi_Annan": {
+        "correct": 2,
+        "test_count": 27,
+        "accuracy_percent": 7.4074074074074066
+      },
+      "Lindsay_Davenport": {
+        "correct": 0,
+        "test_count": 17,
+        "accuracy_percent": 0.0
+      },
+      "Mahathir_Mohamad": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Pierce_Brosnan": {
+        "correct": 8,
+        "test_count": 10,
+        "accuracy_percent": 80.0
+      },
+      "Renee_Zellweger": {
+        "correct": 5,
+        "test_count": 12,
+        "accuracy_percent": 41.66666666666667
+      },
+      "Taha_Yassin_Ramadan": {
+        "correct": 1,
+        "test_count": 10,
+        "accuracy_percent": 10.0
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 1,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 795,
+    "correct": 249,
+    "accuracy_percent": 31.32075471698113,
+    "macro_subject_accuracy_percent": 19.667396988825555,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      795,
+      61504
+    ],
+    "encoding_seconds": 0.811924600000566,
+    "matching_seconds": 0.6637460000001738,
+    "subject_results": {
+      "Amelie_Mauresmo": {
+        "correct": 5,
+        "test_count": 16,
+        "accuracy_percent": 31.25
+      },
+      "Carlos_Moya": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      },
+      "George_W_Bush": {
+        "correct": 195,
+        "test_count": 525,
+        "accuracy_percent": 37.142857142857146
+      },
+      "Gordon_Brown": {
+        "correct": 2,
+        "test_count": 8,
+        "accuracy_percent": 25.0
+      },
+      "Hans_Blix": {
+        "correct": 0,
+        "test_count": 34,
+        "accuracy_percent": 0.0
+      },
+      "Jennifer_Capriati": {
+        "correct": 3,
+        "test_count": 37,
+        "accuracy_percent": 8.108108108108109
+      },
+      "Jennifer_Lopez": {
+        "correct": 2,
+        "test_count": 16,
+        "accuracy_percent": 12.5
+      },
+      "John_Ashcroft": {
+        "correct": 27,
+        "test_count": 48,
+        "accuracy_percent": 56.25
+      },
+      "Mohammed_Al-Douri": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Queen_Elizabeth_II": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Roh_Moo-hyun": {
+        "correct": 4,
+        "test_count": 27,
+        "accuracy_percent": 14.814814814814813
+      },
+      "Saddam_Hussein": {
+        "correct": 8,
+        "test_count": 18,
+        "accuracy_percent": 44.44444444444444
+      },
+      "Silvio_Berlusconi": {
+        "correct": 0,
+        "test_count": 28,
+        "accuracy_percent": 0.0
+      },
+      "Tang_Jiaxuan": {
+        "correct": 2,
+        "test_count": 6,
+        "accuracy_percent": 33.33333333333333
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 1,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 795,
+    "correct": 116,
+    "accuracy_percent": 14.59119496855346,
+    "macro_subject_accuracy_percent": 13.823039275770368,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      795,
+      16384
+    ],
+    "encoding_seconds": 0.9388507000003301,
+    "matching_seconds": 0.1454702000010002,
+    "subject_results": {
+      "Amelie_Mauresmo": {
+        "correct": 0,
+        "test_count": 16,
+        "accuracy_percent": 0.0
+      },
+      "Carlos_Moya": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      },
+      "George_W_Bush": {
+        "correct": 72,
+        "test_count": 525,
+        "accuracy_percent": 13.714285714285715
+      },
+      "Gordon_Brown": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Hans_Blix": {
+        "correct": 3,
+        "test_count": 34,
+        "accuracy_percent": 8.823529411764707
+      },
+      "Jennifer_Capriati": {
+        "correct": 6,
+        "test_count": 37,
+        "accuracy_percent": 16.216216216216218
+      },
+      "Jennifer_Lopez": {
+        "correct": 3,
+        "test_count": 16,
+        "accuracy_percent": 18.75
+      },
+      "John_Ashcroft": {
+        "correct": 6,
+        "test_count": 48,
+        "accuracy_percent": 12.5
+      },
+      "Mohammed_Al-Douri": {
+        "correct": 3,
+        "test_count": 10,
+        "accuracy_percent": 30.0
+      },
+      "Queen_Elizabeth_II": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Roh_Moo-hyun": {
+        "correct": 11,
+        "test_count": 27,
+        "accuracy_percent": 40.74074074074074
+      },
+      "Saddam_Hussein": {
+        "correct": 5,
+        "test_count": 18,
+        "accuracy_percent": 27.77777777777778
+      },
+      "Silvio_Berlusconi": {
+        "correct": 7,
+        "test_count": 28,
+        "accuracy_percent": 25.0
+      },
+      "Tang_Jiaxuan": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 1,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 795,
+    "correct": 128,
+    "accuracy_percent": 16.10062893081761,
+    "macro_subject_accuracy_percent": 27.550117494445228,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      795,
+      6561
+    ],
+    "encoding_seconds": 0.2933405000003404,
+    "matching_seconds": 0.06044769999971322,
+    "subject_results": {
+      "Amelie_Mauresmo": {
+        "correct": 1,
+        "test_count": 16,
+        "accuracy_percent": 6.25
+      },
+      "Carlos_Moya": {
+        "correct": 1,
+        "test_count": 14,
+        "accuracy_percent": 7.142857142857142
+      },
+      "George_W_Bush": {
+        "correct": 59,
+        "test_count": 525,
+        "accuracy_percent": 11.238095238095239
+      },
+      "Gordon_Brown": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Hans_Blix": {
+        "correct": 16,
+        "test_count": 34,
+        "accuracy_percent": 47.05882352941176
+      },
+      "Jennifer_Capriati": {
+        "correct": 4,
+        "test_count": 37,
+        "accuracy_percent": 10.81081081081081
+      },
+      "Jennifer_Lopez": {
+        "correct": 10,
+        "test_count": 16,
+        "accuracy_percent": 62.5
+      },
+      "John_Ashcroft": {
+        "correct": 2,
+        "test_count": 48,
+        "accuracy_percent": 4.166666666666666
+      },
+      "Mohammed_Al-Douri": {
+        "correct": 2,
+        "test_count": 10,
+        "accuracy_percent": 20.0
+      },
+      "Queen_Elizabeth_II": {
+        "correct": 3,
+        "test_count": 8,
+        "accuracy_percent": 37.5
+      },
+      "Roh_Moo-hyun": {
+        "correct": 14,
+        "test_count": 27,
+        "accuracy_percent": 51.85185185185185
+      },
+      "Saddam_Hussein": {
+        "correct": 11,
+        "test_count": 18,
+        "accuracy_percent": 61.111111111111114
+      },
+      "Silvio_Berlusconi": {
+        "correct": 1,
+        "test_count": 28,
+        "accuracy_percent": 3.571428571428571
+      },
+      "Tang_Jiaxuan": {
+        "correct": 3,
+        "test_count": 6,
+        "accuracy_percent": 50.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 1,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 795,
+    "correct": 272,
+    "accuracy_percent": 34.21383647798742,
+    "macro_subject_accuracy_percent": 24.54242703087241,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      795,
+      6561
+    ],
+    "encoding_seconds": 0.29113820000020496,
+    "matching_seconds": 0.060345500000039465,
+    "subject_results": {
+      "Amelie_Mauresmo": {
+        "correct": 4,
+        "test_count": 16,
+        "accuracy_percent": 25.0
+      },
+      "Carlos_Moya": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      },
+      "George_W_Bush": {
+        "correct": 208,
+        "test_count": 525,
+        "accuracy_percent": 39.61904761904762
+      },
+      "Gordon_Brown": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Hans_Blix": {
+        "correct": 3,
+        "test_count": 34,
+        "accuracy_percent": 8.823529411764707
+      },
+      "Jennifer_Capriati": {
+        "correct": 6,
+        "test_count": 37,
+        "accuracy_percent": 16.216216216216218
+      },
+      "Jennifer_Lopez": {
+        "correct": 4,
+        "test_count": 16,
+        "accuracy_percent": 25.0
+      },
+      "John_Ashcroft": {
+        "correct": 23,
+        "test_count": 48,
+        "accuracy_percent": 47.91666666666667
+      },
+      "Mohammed_Al-Douri": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Queen_Elizabeth_II": {
+        "correct": 4,
+        "test_count": 8,
+        "accuracy_percent": 50.0
+      },
+      "Roh_Moo-hyun": {
+        "correct": 11,
+        "test_count": 27,
+        "accuracy_percent": 40.74074074074074
+      },
+      "Saddam_Hussein": {
+        "correct": 5,
+        "test_count": 18,
+        "accuracy_percent": 27.77777777777778
+      },
+      "Silvio_Berlusconi": {
+        "correct": 0,
+        "test_count": 28,
+        "accuracy_percent": 0.0
+      },
+      "Tang_Jiaxuan": {
+        "correct": 3,
+        "test_count": 6,
+        "accuracy_percent": 50.0
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 2,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 760,
+    "correct": 31,
+    "accuracy_percent": 4.078947368421053,
+    "macro_subject_accuracy_percent": 14.693711568711567,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      760,
+      61504
+    ],
+    "encoding_seconds": 0.7932106999996904,
+    "matching_seconds": 0.5438228999992134,
+    "subject_results": {
+      "Arnold_Schwarzenegger": {
+        "correct": 1,
+        "test_count": 37,
+        "accuracy_percent": 2.7027027027027026
+      },
+      "Bill_Clinton": {
+        "correct": 3,
+        "test_count": 24,
+        "accuracy_percent": 12.5
+      },
+      "Dick_Cheney": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "George_W_Bush": {
+        "correct": 0,
+        "test_count": 525,
+        "accuracy_percent": 0.0
+      },
+      "Gray_Davis": {
+        "correct": 1,
+        "test_count": 21,
+        "accuracy_percent": 4.761904761904762
+      },
+      "Howard_Dean": {
+        "correct": 2,
+        "test_count": 7,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Jean_Charest": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "Jennifer_Lopez": {
+        "correct": 13,
+        "test_count": 16,
+        "accuracy_percent": 81.25
+      },
+      "Kofi_Annan": {
+        "correct": 4,
+        "test_count": 27,
+        "accuracy_percent": 14.814814814814813
+      },
+      "Nestor_Kirchner": {
+        "correct": 0,
+        "test_count": 32,
+        "accuracy_percent": 0.0
+      },
+      "Pervez_Musharraf": {
+        "correct": 0,
+        "test_count": 13,
+        "accuracy_percent": 0.0
+      },
+      "Pete_Sampras": {
+        "correct": 0,
+        "test_count": 17,
+        "accuracy_percent": 0.0
+      },
+      "Renee_Zellweger": {
+        "correct": 6,
+        "test_count": 12,
+        "accuracy_percent": 50.0
+      },
+      "Wen_Jiabao": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 2,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 760,
+    "correct": 53,
+    "accuracy_percent": 6.973684210526315,
+    "macro_subject_accuracy_percent": 13.816025775059387,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      760,
+      16384
+    ],
+    "encoding_seconds": 0.9148218000009365,
+    "matching_seconds": 0.14205029999902763,
+    "subject_results": {
+      "Arnold_Schwarzenegger": {
+        "correct": 2,
+        "test_count": 37,
+        "accuracy_percent": 5.405405405405405
+      },
+      "Bill_Clinton": {
+        "correct": 4,
+        "test_count": 24,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Dick_Cheney": {
+        "correct": 4,
+        "test_count": 9,
+        "accuracy_percent": 44.44444444444444
+      },
+      "George_W_Bush": {
+        "correct": 20,
+        "test_count": 525,
+        "accuracy_percent": 3.8095238095238098
+      },
+      "Gray_Davis": {
+        "correct": 5,
+        "test_count": 21,
+        "accuracy_percent": 23.809523809523807
+      },
+      "Howard_Dean": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Jean_Charest": {
+        "correct": 1,
+        "test_count": 12,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Jennifer_Lopez": {
+        "correct": 1,
+        "test_count": 16,
+        "accuracy_percent": 6.25
+      },
+      "Kofi_Annan": {
+        "correct": 4,
+        "test_count": 27,
+        "accuracy_percent": 14.814814814814813
+      },
+      "Nestor_Kirchner": {
+        "correct": 4,
+        "test_count": 32,
+        "accuracy_percent": 12.5
+      },
+      "Pervez_Musharraf": {
+        "correct": 3,
+        "test_count": 13,
+        "accuracy_percent": 23.076923076923077
+      },
+      "Pete_Sampras": {
+        "correct": 3,
+        "test_count": 17,
+        "accuracy_percent": 17.647058823529413
+      },
+      "Renee_Zellweger": {
+        "correct": 2,
+        "test_count": 12,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Wen_Jiabao": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 2,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 760,
+    "correct": 80,
+    "accuracy_percent": 10.526315789473683,
+    "macro_subject_accuracy_percent": 26.354447340266667,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      760,
+      6561
+    ],
+    "encoding_seconds": 0.2831921000015427,
+    "matching_seconds": 0.05909070000052452,
+    "subject_results": {
+      "Arnold_Schwarzenegger": {
+        "correct": 2,
+        "test_count": 37,
+        "accuracy_percent": 5.405405405405405
+      },
+      "Bill_Clinton": {
+        "correct": 2,
+        "test_count": 24,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Dick_Cheney": {
+        "correct": 7,
+        "test_count": 9,
+        "accuracy_percent": 77.77777777777779
+      },
+      "George_W_Bush": {
+        "correct": 37,
+        "test_count": 525,
+        "accuracy_percent": 7.0476190476190474
+      },
+      "Gray_Davis": {
+        "correct": 0,
+        "test_count": 21,
+        "accuracy_percent": 0.0
+      },
+      "Howard_Dean": {
+        "correct": 7,
+        "test_count": 7,
+        "accuracy_percent": 100.0
+      },
+      "Jean_Charest": {
+        "correct": 1,
+        "test_count": 12,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Jennifer_Lopez": {
+        "correct": 0,
+        "test_count": 16,
+        "accuracy_percent": 0.0
+      },
+      "Kofi_Annan": {
+        "correct": 6,
+        "test_count": 27,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Nestor_Kirchner": {
+        "correct": 3,
+        "test_count": 32,
+        "accuracy_percent": 9.375
+      },
+      "Pervez_Musharraf": {
+        "correct": 6,
+        "test_count": 13,
+        "accuracy_percent": 46.15384615384615
+      },
+      "Pete_Sampras": {
+        "correct": 3,
+        "test_count": 17,
+        "accuracy_percent": 17.647058823529413
+      },
+      "Renee_Zellweger": {
+        "correct": 2,
+        "test_count": 12,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Wen_Jiabao": {
+        "correct": 4,
+        "test_count": 8,
+        "accuracy_percent": 50.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 2,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 760,
+    "correct": 43,
+    "accuracy_percent": 5.657894736842105,
+    "macro_subject_accuracy_percent": 16.405834995120706,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      760,
+      6561
+    ],
+    "encoding_seconds": 0.2777699999987817,
+    "matching_seconds": 0.05845419999968726,
+    "subject_results": {
+      "Arnold_Schwarzenegger": {
+        "correct": 4,
+        "test_count": 37,
+        "accuracy_percent": 10.81081081081081
+      },
+      "Bill_Clinton": {
+        "correct": 2,
+        "test_count": 24,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Dick_Cheney": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "George_W_Bush": {
+        "correct": 4,
+        "test_count": 525,
+        "accuracy_percent": 0.7619047619047619
+      },
+      "Gray_Davis": {
+        "correct": 0,
+        "test_count": 21,
+        "accuracy_percent": 0.0
+      },
+      "Howard_Dean": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Jean_Charest": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "Jennifer_Lopez": {
+        "correct": 15,
+        "test_count": 16,
+        "accuracy_percent": 93.75
+      },
+      "Kofi_Annan": {
+        "correct": 9,
+        "test_count": 27,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Nestor_Kirchner": {
+        "correct": 0,
+        "test_count": 32,
+        "accuracy_percent": 0.0
+      },
+      "Pervez_Musharraf": {
+        "correct": 1,
+        "test_count": 13,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Pete_Sampras": {
+        "correct": 0,
+        "test_count": 17,
+        "accuracy_percent": 0.0
+      },
+      "Renee_Zellweger": {
+        "correct": 5,
+        "test_count": 12,
+        "accuracy_percent": 41.66666666666667
+      },
+      "Wen_Jiabao": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 3,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 315,
+    "correct": 19,
+    "accuracy_percent": 6.031746031746032,
+    "macro_subject_accuracy_percent": 10.187074829931971,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      315,
+      61504
+    ],
+    "encoding_seconds": 0.35373470000013185,
+    "matching_seconds": 0.2402445000006992,
+    "subject_results": {
+      "Andre_Agassi": {
+        "correct": 0,
+        "test_count": 31,
+        "accuracy_percent": 0.0
+      },
+      "Ariel_Sharon": {
+        "correct": 0,
+        "test_count": 72,
+        "accuracy_percent": 0.0
+      },
+      "Atal_Bihari_Vajpayee": {
+        "correct": 0,
+        "test_count": 19,
+        "accuracy_percent": 0.0
+      },
+      "Condoleezza_Rice": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      },
+      "David_Beckham": {
+        "correct": 0,
+        "test_count": 26,
+        "accuracy_percent": 0.0
+      },
+      "Fidel_Castro": {
+        "correct": 0,
+        "test_count": 13,
+        "accuracy_percent": 0.0
+      },
+      "Howard_Dean": {
+        "correct": 1,
+        "test_count": 7,
+        "accuracy_percent": 14.285714285714285
+      },
+      "Jennifer_Lopez": {
+        "correct": 14,
+        "test_count": 16,
+        "accuracy_percent": 87.5
+      },
+      "John_Bolton": {
+        "correct": 1,
+        "test_count": 12,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Junichiro_Koizumi": {
+        "correct": 0,
+        "test_count": 55,
+        "accuracy_percent": 0.0
+      },
+      "Lucio_Gutierrez": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Norah_Jones": {
+        "correct": 2,
+        "test_count": 10,
+        "accuracy_percent": 20.0
+      },
+      "Pervez_Musharraf": {
+        "correct": 0,
+        "test_count": 13,
+        "accuracy_percent": 0.0
+      },
+      "Roh_Moo-hyun": {
+        "correct": 0,
+        "test_count": 27,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 3,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 315,
+    "correct": 43,
+    "accuracy_percent": 13.65079365079365,
+    "macro_subject_accuracy_percent": 14.856609208112967,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      315,
+      16384
+    ],
+    "encoding_seconds": 0.41743569999925967,
+    "matching_seconds": 0.06602399999974295,
+    "subject_results": {
+      "Andre_Agassi": {
+        "correct": 0,
+        "test_count": 31,
+        "accuracy_percent": 0.0
+      },
+      "Ariel_Sharon": {
+        "correct": 11,
+        "test_count": 72,
+        "accuracy_percent": 15.277777777777779
+      },
+      "Atal_Bihari_Vajpayee": {
+        "correct": 7,
+        "test_count": 19,
+        "accuracy_percent": 36.84210526315789
+      },
+      "Condoleezza_Rice": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      },
+      "David_Beckham": {
+        "correct": 2,
+        "test_count": 26,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Fidel_Castro": {
+        "correct": 1,
+        "test_count": 13,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Howard_Dean": {
+        "correct": 2,
+        "test_count": 7,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Jennifer_Lopez": {
+        "correct": 2,
+        "test_count": 16,
+        "accuracy_percent": 12.5
+      },
+      "John_Bolton": {
+        "correct": 1,
+        "test_count": 12,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Junichiro_Koizumi": {
+        "correct": 4,
+        "test_count": 55,
+        "accuracy_percent": 7.2727272727272725
+      },
+      "Lucio_Gutierrez": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Norah_Jones": {
+        "correct": 3,
+        "test_count": 10,
+        "accuracy_percent": 30.0
+      },
+      "Pervez_Musharraf": {
+        "correct": 2,
+        "test_count": 13,
+        "accuracy_percent": 15.384615384615385
+      },
+      "Roh_Moo-hyun": {
+        "correct": 7,
+        "test_count": 27,
+        "accuracy_percent": 25.925925925925924
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 3,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 315,
+    "correct": 79,
+    "accuracy_percent": 25.07936507936508,
+    "macro_subject_accuracy_percent": 23.5679071963331,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      315,
+      6561
+    ],
+    "encoding_seconds": 0.1297792000004847,
+    "matching_seconds": 0.02656130000104895,
+    "subject_results": {
+      "Andre_Agassi": {
+        "correct": 4,
+        "test_count": 31,
+        "accuracy_percent": 12.903225806451612
+      },
+      "Ariel_Sharon": {
+        "correct": 21,
+        "test_count": 72,
+        "accuracy_percent": 29.166666666666668
+      },
+      "Atal_Bihari_Vajpayee": {
+        "correct": 3,
+        "test_count": 19,
+        "accuracy_percent": 15.789473684210526
+      },
+      "Condoleezza_Rice": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      },
+      "David_Beckham": {
+        "correct": 12,
+        "test_count": 26,
+        "accuracy_percent": 46.15384615384615
+      },
+      "Fidel_Castro": {
+        "correct": 1,
+        "test_count": 13,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Howard_Dean": {
+        "correct": 1,
+        "test_count": 7,
+        "accuracy_percent": 14.285714285714285
+      },
+      "Jennifer_Lopez": {
+        "correct": 10,
+        "test_count": 16,
+        "accuracy_percent": 62.5
+      },
+      "John_Bolton": {
+        "correct": 7,
+        "test_count": 12,
+        "accuracy_percent": 58.333333333333336
+      },
+      "Junichiro_Koizumi": {
+        "correct": 7,
+        "test_count": 55,
+        "accuracy_percent": 12.727272727272727
+      },
+      "Lucio_Gutierrez": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Norah_Jones": {
+        "correct": 1,
+        "test_count": 10,
+        "accuracy_percent": 10.0
+      },
+      "Pervez_Musharraf": {
+        "correct": 4,
+        "test_count": 13,
+        "accuracy_percent": 30.76923076923077
+      },
+      "Roh_Moo-hyun": {
+        "correct": 8,
+        "test_count": 27,
+        "accuracy_percent": 29.629629629629626
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 3,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 315,
+    "correct": 57,
+    "accuracy_percent": 18.095238095238095,
+    "macro_subject_accuracy_percent": 22.556880781474522,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      315,
+      6561
+    ],
+    "encoding_seconds": 0.13258390000009967,
+    "matching_seconds": 0.026121999999304535,
+    "subject_results": {
+      "Andre_Agassi": {
+        "correct": 6,
+        "test_count": 31,
+        "accuracy_percent": 19.35483870967742
+      },
+      "Ariel_Sharon": {
+        "correct": 7,
+        "test_count": 72,
+        "accuracy_percent": 9.722222222222223
+      },
+      "Atal_Bihari_Vajpayee": {
+        "correct": 6,
+        "test_count": 19,
+        "accuracy_percent": 31.57894736842105
+      },
+      "Condoleezza_Rice": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      },
+      "David_Beckham": {
+        "correct": 6,
+        "test_count": 26,
+        "accuracy_percent": 23.076923076923077
+      },
+      "Fidel_Castro": {
+        "correct": 0,
+        "test_count": 13,
+        "accuracy_percent": 0.0
+      },
+      "Howard_Dean": {
+        "correct": 2,
+        "test_count": 7,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Jennifer_Lopez": {
+        "correct": 16,
+        "test_count": 16,
+        "accuracy_percent": 100.0
+      },
+      "John_Bolton": {
+        "correct": 6,
+        "test_count": 12,
+        "accuracy_percent": 50.0
+      },
+      "Junichiro_Koizumi": {
+        "correct": 1,
+        "test_count": 55,
+        "accuracy_percent": 1.8181818181818181
+      },
+      "Lucio_Gutierrez": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Norah_Jones": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Pervez_Musharraf": {
+        "correct": 1,
+        "test_count": 13,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Roh_Moo-hyun": {
+        "correct": 4,
+        "test_count": 27,
+        "accuracy_percent": 14.814814814814813
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 4,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 462,
+    "correct": 37,
+    "accuracy_percent": 8.008658008658008,
+    "macro_subject_accuracy_percent": 10.474631686702873,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      462,
+      61504
+    ],
+    "encoding_seconds": 0.48088930000085384,
+    "matching_seconds": 0.3445259000000078,
+    "subject_results": {
+      "Ariel_Sharon": {
+        "correct": 1,
+        "test_count": 72,
+        "accuracy_percent": 1.3888888888888888
+      },
+      "Gray_Davis": {
+        "correct": 8,
+        "test_count": 21,
+        "accuracy_percent": 38.095238095238095
+      },
+      "James_Blake": {
+        "correct": 2,
+        "test_count": 9,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Jeremy_Greenstock": {
+        "correct": 2,
+        "test_count": 19,
+        "accuracy_percent": 10.526315789473683
+      },
+      "John_Bolton": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "Lance_Armstrong": {
+        "correct": 0,
+        "test_count": 13,
+        "accuracy_percent": 0.0
+      },
+      "Luiz_Inacio_Lula_da_Silva": {
+        "correct": 6,
+        "test_count": 43,
+        "accuracy_percent": 13.953488372093023
+      },
+      "Meryl_Streep": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Ricardo_Lagos": {
+        "correct": 2,
+        "test_count": 22,
+        "accuracy_percent": 9.090909090909092
+      },
+      "Richard_Myers": {
+        "correct": 0,
+        "test_count": 13,
+        "accuracy_percent": 0.0
+      },
+      "Serena_Williams": {
+        "correct": 4,
+        "test_count": 47,
+        "accuracy_percent": 8.51063829787234
+      },
+      "Silvio_Berlusconi": {
+        "correct": 12,
+        "test_count": 28,
+        "accuracy_percent": 42.857142857142854
+      },
+      "Tim_Henman": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      },
+      "Tony_Blair": {
+        "correct": 0,
+        "test_count": 139,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 4,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 462,
+    "correct": 73,
+    "accuracy_percent": 15.800865800865802,
+    "macro_subject_accuracy_percent": 20.38540508153153,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      462,
+      16384
+    ],
+    "encoding_seconds": 0.5834117000013066,
+    "matching_seconds": 0.0902341000000888,
+    "subject_results": {
+      "Ariel_Sharon": {
+        "correct": 8,
+        "test_count": 72,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Gray_Davis": {
+        "correct": 4,
+        "test_count": 21,
+        "accuracy_percent": 19.047619047619047
+      },
+      "James_Blake": {
+        "correct": 4,
+        "test_count": 9,
+        "accuracy_percent": 44.44444444444444
+      },
+      "Jeremy_Greenstock": {
+        "correct": 2,
+        "test_count": 19,
+        "accuracy_percent": 10.526315789473683
+      },
+      "John_Bolton": {
+        "correct": 3,
+        "test_count": 12,
+        "accuracy_percent": 25.0
+      },
+      "Lance_Armstrong": {
+        "correct": 4,
+        "test_count": 13,
+        "accuracy_percent": 30.76923076923077
+      },
+      "Luiz_Inacio_Lula_da_Silva": {
+        "correct": 10,
+        "test_count": 43,
+        "accuracy_percent": 23.25581395348837
+      },
+      "Meryl_Streep": {
+        "correct": 2,
+        "test_count": 10,
+        "accuracy_percent": 20.0
+      },
+      "Ricardo_Lagos": {
+        "correct": 3,
+        "test_count": 22,
+        "accuracy_percent": 13.636363636363635
+      },
+      "Richard_Myers": {
+        "correct": 2,
+        "test_count": 13,
+        "accuracy_percent": 15.384615384615385
+      },
+      "Serena_Williams": {
+        "correct": 1,
+        "test_count": 47,
+        "accuracy_percent": 2.127659574468085
+      },
+      "Silvio_Berlusconi": {
+        "correct": 8,
+        "test_count": 28,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Tim_Henman": {
+        "correct": 4,
+        "test_count": 14,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Tony_Blair": {
+        "correct": 18,
+        "test_count": 139,
+        "accuracy_percent": 12.949640287769784
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 4,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 462,
+    "correct": 82,
+    "accuracy_percent": 17.74891774891775,
+    "macro_subject_accuracy_percent": 28.660200450645952,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      462,
+      6561
+    ],
+    "encoding_seconds": 0.1823054000014963,
+    "matching_seconds": 0.037779299998874194,
+    "subject_results": {
+      "Ariel_Sharon": {
+        "correct": 3,
+        "test_count": 72,
+        "accuracy_percent": 4.166666666666666
+      },
+      "Gray_Davis": {
+        "correct": 8,
+        "test_count": 21,
+        "accuracy_percent": 38.095238095238095
+      },
+      "James_Blake": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Jeremy_Greenstock": {
+        "correct": 9,
+        "test_count": 19,
+        "accuracy_percent": 47.368421052631575
+      },
+      "John_Bolton": {
+        "correct": 9,
+        "test_count": 12,
+        "accuracy_percent": 75.0
+      },
+      "Lance_Armstrong": {
+        "correct": 6,
+        "test_count": 13,
+        "accuracy_percent": 46.15384615384615
+      },
+      "Luiz_Inacio_Lula_da_Silva": {
+        "correct": 13,
+        "test_count": 43,
+        "accuracy_percent": 30.23255813953488
+      },
+      "Meryl_Streep": {
+        "correct": 2,
+        "test_count": 10,
+        "accuracy_percent": 20.0
+      },
+      "Ricardo_Lagos": {
+        "correct": 14,
+        "test_count": 22,
+        "accuracy_percent": 63.63636363636363
+      },
+      "Richard_Myers": {
+        "correct": 1,
+        "test_count": 13,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Serena_Williams": {
+        "correct": 5,
+        "test_count": 47,
+        "accuracy_percent": 10.638297872340425
+      },
+      "Silvio_Berlusconi": {
+        "correct": 7,
+        "test_count": 28,
+        "accuracy_percent": 25.0
+      },
+      "Tim_Henman": {
+        "correct": 3,
+        "test_count": 14,
+        "accuracy_percent": 21.428571428571427
+      },
+      "Tony_Blair": {
+        "correct": 1,
+        "test_count": 139,
+        "accuracy_percent": 0.7194244604316548
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 4,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 462,
+    "correct": 74,
+    "accuracy_percent": 16.017316017316016,
+    "macro_subject_accuracy_percent": 23.33278415135086,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      462,
+      6561
+    ],
+    "encoding_seconds": 0.17854710000028717,
+    "matching_seconds": 0.037261399998897105,
+    "subject_results": {
+      "Ariel_Sharon": {
+        "correct": 4,
+        "test_count": 72,
+        "accuracy_percent": 5.555555555555555
+      },
+      "Gray_Davis": {
+        "correct": 10,
+        "test_count": 21,
+        "accuracy_percent": 47.61904761904761
+      },
+      "James_Blake": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Jeremy_Greenstock": {
+        "correct": 6,
+        "test_count": 19,
+        "accuracy_percent": 31.57894736842105
+      },
+      "John_Bolton": {
+        "correct": 5,
+        "test_count": 12,
+        "accuracy_percent": 41.66666666666667
+      },
+      "Lance_Armstrong": {
+        "correct": 5,
+        "test_count": 13,
+        "accuracy_percent": 38.46153846153847
+      },
+      "Luiz_Inacio_Lula_da_Silva": {
+        "correct": 9,
+        "test_count": 43,
+        "accuracy_percent": 20.930232558139537
+      },
+      "Meryl_Streep": {
+        "correct": 1,
+        "test_count": 10,
+        "accuracy_percent": 10.0
+      },
+      "Ricardo_Lagos": {
+        "correct": 1,
+        "test_count": 22,
+        "accuracy_percent": 4.545454545454546
+      },
+      "Richard_Myers": {
+        "correct": 2,
+        "test_count": 13,
+        "accuracy_percent": 15.384615384615385
+      },
+      "Serena_Williams": {
+        "correct": 18,
+        "test_count": 47,
+        "accuracy_percent": 38.297872340425535
+      },
+      "Silvio_Berlusconi": {
+        "correct": 9,
+        "test_count": 28,
+        "accuracy_percent": 32.142857142857146
+      },
+      "Tim_Henman": {
+        "correct": 1,
+        "test_count": 14,
+        "accuracy_percent": 7.142857142857142
+      },
+      "Tony_Blair": {
+        "correct": 0,
+        "test_count": 139,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 5,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 369,
+    "correct": 97,
+    "accuracy_percent": 26.287262872628723,
+    "macro_subject_accuracy_percent": 18.733465113926425,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      369,
+      61504
+    ],
+    "encoding_seconds": 0.40348459999950137,
+    "matching_seconds": 0.27637399999912304,
+    "subject_results": {
+      "Alejandro_Toledo": {
+        "correct": 1,
+        "test_count": 34,
+        "accuracy_percent": 2.941176470588235
+      },
+      "Angelina_Jolie": {
+        "correct": 3,
+        "test_count": 15,
+        "accuracy_percent": 20.0
+      },
+      "Gordon_Brown": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Gray_Davis": {
+        "correct": 9,
+        "test_count": 21,
+        "accuracy_percent": 42.857142857142854
+      },
+      "James_Kelly": {
+        "correct": 3,
+        "test_count": 6,
+        "accuracy_percent": 50.0
+      },
+      "Jennifer_Aniston": {
+        "correct": 8,
+        "test_count": 16,
+        "accuracy_percent": 50.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 1,
+        "test_count": 19,
+        "accuracy_percent": 5.263157894736842
+      },
+      "John_Howard": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      },
+      "Kim_Clijsters": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Laura_Bush": {
+        "correct": 3,
+        "test_count": 36,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Lleyton_Hewitt": {
+        "correct": 1,
+        "test_count": 36,
+        "accuracy_percent": 2.7777777777777777
+      },
+      "Norah_Jones": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Paul_Burrell": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      },
+      "Tony_Blair": {
+        "correct": 65,
+        "test_count": 139,
+        "accuracy_percent": 46.76258992805755
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 5,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 369,
+    "correct": 65,
+    "accuracy_percent": 17.615176151761517,
+    "macro_subject_accuracy_percent": 22.668965604669232,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      369,
+      16384
+    ],
+    "encoding_seconds": 0.4874290999996447,
+    "matching_seconds": 0.07485129999986384,
+    "subject_results": {
+      "Alejandro_Toledo": {
+        "correct": 4,
+        "test_count": 34,
+        "accuracy_percent": 11.76470588235294
+      },
+      "Angelina_Jolie": {
+        "correct": 3,
+        "test_count": 15,
+        "accuracy_percent": 20.0
+      },
+      "Gordon_Brown": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Gray_Davis": {
+        "correct": 3,
+        "test_count": 21,
+        "accuracy_percent": 14.285714285714285
+      },
+      "James_Kelly": {
+        "correct": 3,
+        "test_count": 6,
+        "accuracy_percent": 50.0
+      },
+      "Jennifer_Aniston": {
+        "correct": 4,
+        "test_count": 16,
+        "accuracy_percent": 25.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 7,
+        "test_count": 19,
+        "accuracy_percent": 36.84210526315789
+      },
+      "John_Howard": {
+        "correct": 1,
+        "test_count": 14,
+        "accuracy_percent": 7.142857142857142
+      },
+      "Kim_Clijsters": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Laura_Bush": {
+        "correct": 9,
+        "test_count": 36,
+        "accuracy_percent": 25.0
+      },
+      "Lleyton_Hewitt": {
+        "correct": 2,
+        "test_count": 36,
+        "accuracy_percent": 5.555555555555555
+      },
+      "Norah_Jones": {
+        "correct": 4,
+        "test_count": 10,
+        "accuracy_percent": 40.0
+      },
+      "Paul_Burrell": {
+        "correct": 4,
+        "test_count": 6,
+        "accuracy_percent": 66.66666666666666
+      },
+      "Tony_Blair": {
+        "correct": 21,
+        "test_count": 139,
+        "accuracy_percent": 15.107913669064748
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 5,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 369,
+    "correct": 111,
+    "accuracy_percent": 30.081300813008134,
+    "macro_subject_accuracy_percent": 24.02396592235279,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      369,
+      6561
+    ],
+    "encoding_seconds": 0.15273920000072394,
+    "matching_seconds": 0.03052910000042175,
+    "subject_results": {
+      "Alejandro_Toledo": {
+        "correct": 4,
+        "test_count": 34,
+        "accuracy_percent": 11.76470588235294
+      },
+      "Angelina_Jolie": {
+        "correct": 4,
+        "test_count": 15,
+        "accuracy_percent": 26.666666666666668
+      },
+      "Gordon_Brown": {
+        "correct": 2,
+        "test_count": 8,
+        "accuracy_percent": 25.0
+      },
+      "Gray_Davis": {
+        "correct": 1,
+        "test_count": 21,
+        "accuracy_percent": 4.761904761904762
+      },
+      "James_Kelly": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      },
+      "Jennifer_Aniston": {
+        "correct": 11,
+        "test_count": 16,
+        "accuracy_percent": 68.75
+      },
+      "Jeremy_Greenstock": {
+        "correct": 4,
+        "test_count": 19,
+        "accuracy_percent": 21.052631578947366
+      },
+      "John_Howard": {
+        "correct": 4,
+        "test_count": 14,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Kim_Clijsters": {
+        "correct": 4,
+        "test_count": 9,
+        "accuracy_percent": 44.44444444444444
+      },
+      "Laura_Bush": {
+        "correct": 9,
+        "test_count": 36,
+        "accuracy_percent": 25.0
+      },
+      "Lleyton_Hewitt": {
+        "correct": 3,
+        "test_count": 36,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Norah_Jones": {
+        "correct": 1,
+        "test_count": 10,
+        "accuracy_percent": 10.0
+      },
+      "Paul_Burrell": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Tony_Blair": {
+        "correct": 63,
+        "test_count": 139,
+        "accuracy_percent": 45.32374100719424
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 5,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 369,
+    "correct": 83,
+    "accuracy_percent": 22.493224932249323,
+    "macro_subject_accuracy_percent": 19.76549792578902,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      369,
+      6561
+    ],
+    "encoding_seconds": 0.1510710000002291,
+    "matching_seconds": 0.030190800000127638,
+    "subject_results": {
+      "Alejandro_Toledo": {
+        "correct": 19,
+        "test_count": 34,
+        "accuracy_percent": 55.88235294117647
+      },
+      "Angelina_Jolie": {
+        "correct": 1,
+        "test_count": 15,
+        "accuracy_percent": 6.666666666666667
+      },
+      "Gordon_Brown": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Gray_Davis": {
+        "correct": 6,
+        "test_count": 21,
+        "accuracy_percent": 28.57142857142857
+      },
+      "James_Kelly": {
+        "correct": 2,
+        "test_count": 6,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Jennifer_Aniston": {
+        "correct": 11,
+        "test_count": 16,
+        "accuracy_percent": 68.75
+      },
+      "Jeremy_Greenstock": {
+        "correct": 0,
+        "test_count": 19,
+        "accuracy_percent": 0.0
+      },
+      "John_Howard": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      },
+      "Kim_Clijsters": {
+        "correct": 4,
+        "test_count": 9,
+        "accuracy_percent": 44.44444444444444
+      },
+      "Laura_Bush": {
+        "correct": 3,
+        "test_count": 36,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Lleyton_Hewitt": {
+        "correct": 2,
+        "test_count": 36,
+        "accuracy_percent": 5.555555555555555
+      },
+      "Norah_Jones": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Paul_Burrell": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      },
+      "Tony_Blair": {
+        "correct": 35,
+        "test_count": 139,
+        "accuracy_percent": 25.179856115107913
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 6,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 196,
+    "correct": 25,
+    "accuracy_percent": 12.755102040816327,
+    "macro_subject_accuracy_percent": 18.250013183568004,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      196,
+      61504
+    ],
+    "encoding_seconds": 0.24148349999995844,
+    "matching_seconds": 0.16578979999940202,
+    "subject_results": {
+      "Dick_Cheney": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Hillary_Clinton": {
+        "correct": 7,
+        "test_count": 9,
+        "accuracy_percent": 77.77777777777779
+      },
+      "Igor_Ivanov": {
+        "correct": 0,
+        "test_count": 15,
+        "accuracy_percent": 0.0
+      },
+      "Jackie_Chan": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Jeb_Bush": {
+        "correct": 3,
+        "test_count": 7,
+        "accuracy_percent": 42.857142857142854
+      },
+      "Jennifer_Garner": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 0,
+        "test_count": 19,
+        "accuracy_percent": 0.0
+      },
+      "John_Bolton": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "John_Kerry": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "Luiz_Inacio_Lula_da_Silva": {
+        "correct": 1,
+        "test_count": 43,
+        "accuracy_percent": 2.3255813953488373
+      },
+      "Michael_Jackson": {
+        "correct": 3,
+        "test_count": 7,
+        "accuracy_percent": 42.857142857142854
+      },
+      "Silvio_Berlusconi": {
+        "correct": 1,
+        "test_count": 28,
+        "accuracy_percent": 3.571428571428571
+      },
+      "Venus_Williams": {
+        "correct": 9,
+        "test_count": 12,
+        "accuracy_percent": 75.0
+      },
+      "Wen_Jiabao": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 6,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 196,
+    "correct": 34,
+    "accuracy_percent": 17.346938775510203,
+    "macro_subject_accuracy_percent": 22.85460328562269,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      196,
+      16384
+    ],
+    "encoding_seconds": 0.2944078000000445,
+    "matching_seconds": 0.04686790000050678,
+    "subject_results": {
+      "Dick_Cheney": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Hillary_Clinton": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Igor_Ivanov": {
+        "correct": 1,
+        "test_count": 15,
+        "accuracy_percent": 6.666666666666667
+      },
+      "Jackie_Chan": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Jeb_Bush": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Jennifer_Garner": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 3,
+        "test_count": 19,
+        "accuracy_percent": 15.789473684210526
+      },
+      "John_Bolton": {
+        "correct": 5,
+        "test_count": 12,
+        "accuracy_percent": 41.66666666666667
+      },
+      "John_Kerry": {
+        "correct": 2,
+        "test_count": 12,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Luiz_Inacio_Lula_da_Silva": {
+        "correct": 2,
+        "test_count": 43,
+        "accuracy_percent": 4.651162790697675
+      },
+      "Michael_Jackson": {
+        "correct": 6,
+        "test_count": 7,
+        "accuracy_percent": 85.71428571428571
+      },
+      "Silvio_Berlusconi": {
+        "correct": 2,
+        "test_count": 28,
+        "accuracy_percent": 7.142857142857142
+      },
+      "Venus_Williams": {
+        "correct": 3,
+        "test_count": 12,
+        "accuracy_percent": 25.0
+      },
+      "Wen_Jiabao": {
+        "correct": 4,
+        "test_count": 8,
+        "accuracy_percent": 50.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 6,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 196,
+    "correct": 54,
+    "accuracy_percent": 27.55102040816326,
+    "macro_subject_accuracy_percent": 26.088171702789644,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      196,
+      6561
+    ],
+    "encoding_seconds": 0.09021639999991748,
+    "matching_seconds": 0.01763790000040899,
+    "subject_results": {
+      "Dick_Cheney": {
+        "correct": 6,
+        "test_count": 9,
+        "accuracy_percent": 66.66666666666666
+      },
+      "Hillary_Clinton": {
+        "correct": 2,
+        "test_count": 9,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Igor_Ivanov": {
+        "correct": 2,
+        "test_count": 15,
+        "accuracy_percent": 13.333333333333334
+      },
+      "Jackie_Chan": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Jeb_Bush": {
+        "correct": 1,
+        "test_count": 7,
+        "accuracy_percent": 14.285714285714285
+      },
+      "Jennifer_Garner": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 0,
+        "test_count": 19,
+        "accuracy_percent": 0.0
+      },
+      "John_Bolton": {
+        "correct": 6,
+        "test_count": 12,
+        "accuracy_percent": 50.0
+      },
+      "John_Kerry": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "Luiz_Inacio_Lula_da_Silva": {
+        "correct": 23,
+        "test_count": 43,
+        "accuracy_percent": 53.48837209302325
+      },
+      "Michael_Jackson": {
+        "correct": 3,
+        "test_count": 7,
+        "accuracy_percent": 42.857142857142854
+      },
+      "Silvio_Berlusconi": {
+        "correct": 3,
+        "test_count": 28,
+        "accuracy_percent": 10.714285714285714
+      },
+      "Venus_Williams": {
+        "correct": 2,
+        "test_count": 12,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Wen_Jiabao": {
+        "correct": 6,
+        "test_count": 8,
+        "accuracy_percent": 75.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 6,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 196,
+    "correct": 55,
+    "accuracy_percent": 28.061224489795915,
+    "macro_subject_accuracy_percent": 28.57169224278859,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      196,
+      6561
+    ],
+    "encoding_seconds": 0.08890799999971932,
+    "matching_seconds": 0.017954299999473733,
+    "subject_results": {
+      "Dick_Cheney": {
+        "correct": 2,
+        "test_count": 9,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Hillary_Clinton": {
+        "correct": 5,
+        "test_count": 9,
+        "accuracy_percent": 55.55555555555556
+      },
+      "Igor_Ivanov": {
+        "correct": 1,
+        "test_count": 15,
+        "accuracy_percent": 6.666666666666667
+      },
+      "Jackie_Chan": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Jeb_Bush": {
+        "correct": 2,
+        "test_count": 7,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Jennifer_Garner": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 0,
+        "test_count": 19,
+        "accuracy_percent": 0.0
+      },
+      "John_Bolton": {
+        "correct": 4,
+        "test_count": 12,
+        "accuracy_percent": 33.33333333333333
+      },
+      "John_Kerry": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "Luiz_Inacio_Lula_da_Silva": {
+        "correct": 20,
+        "test_count": 43,
+        "accuracy_percent": 46.51162790697674
+      },
+      "Michael_Jackson": {
+        "correct": 5,
+        "test_count": 7,
+        "accuracy_percent": 71.42857142857143
+      },
+      "Silvio_Berlusconi": {
+        "correct": 3,
+        "test_count": 28,
+        "accuracy_percent": 10.714285714285714
+      },
+      "Venus_Williams": {
+        "correct": 9,
+        "test_count": 12,
+        "accuracy_percent": 75.0
+      },
+      "Wen_Jiabao": {
+        "correct": 4,
+        "test_count": 8,
+        "accuracy_percent": 50.0
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 7,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 196,
+    "correct": 23,
+    "accuracy_percent": 11.73469387755102,
+    "macro_subject_accuracy_percent": 14.17609113277806,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      196,
+      61504
+    ],
+    "encoding_seconds": 0.23706350000065868,
+    "matching_seconds": 0.16657169999962207,
+    "subject_results": {
+      "Abdullah_Gul": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      },
+      "Angelina_Jolie": {
+        "correct": 0,
+        "test_count": 15,
+        "accuracy_percent": 0.0
+      },
+      "Eduardo_Duhalde": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Gray_Davis": {
+        "correct": 7,
+        "test_count": 21,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Halle_Berry": {
+        "correct": 1,
+        "test_count": 11,
+        "accuracy_percent": 9.090909090909092
+      },
+      "Julianne_Moore": {
+        "correct": 2,
+        "test_count": 14,
+        "accuracy_percent": 14.285714285714285
+      },
+      "Kim_Clijsters": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Mahathir_Mohamad": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Nicole_Kidman": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      },
+      "Renee_Zellweger": {
+        "correct": 2,
+        "test_count": 12,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Rubens_Barrichello": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Salma_Hayek": {
+        "correct": 3,
+        "test_count": 8,
+        "accuracy_percent": 37.5
+      },
+      "Serena_Williams": {
+        "correct": 2,
+        "test_count": 47,
+        "accuracy_percent": 4.25531914893617
+      },
+      "Tang_Jiaxuan": {
+        "correct": 3,
+        "test_count": 6,
+        "accuracy_percent": 50.0
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 7,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 196,
+    "correct": 36,
+    "accuracy_percent": 18.367346938775512,
+    "macro_subject_accuracy_percent": 17.29908726869213,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      196,
+      16384
+    ],
+    "encoding_seconds": 0.29235850000077335,
+    "matching_seconds": 0.04373140000097919,
+    "subject_results": {
+      "Abdullah_Gul": {
+        "correct": 2,
+        "test_count": 14,
+        "accuracy_percent": 14.285714285714285
+      },
+      "Angelina_Jolie": {
+        "correct": 2,
+        "test_count": 15,
+        "accuracy_percent": 13.333333333333334
+      },
+      "Eduardo_Duhalde": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Gray_Davis": {
+        "correct": 5,
+        "test_count": 21,
+        "accuracy_percent": 23.809523809523807
+      },
+      "Halle_Berry": {
+        "correct": 2,
+        "test_count": 11,
+        "accuracy_percent": 18.181818181818183
+      },
+      "Julianne_Moore": {
+        "correct": 4,
+        "test_count": 14,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Kim_Clijsters": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Mahathir_Mohamad": {
+        "correct": 2,
+        "test_count": 9,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Nicole_Kidman": {
+        "correct": 3,
+        "test_count": 14,
+        "accuracy_percent": 21.428571428571427
+      },
+      "Renee_Zellweger": {
+        "correct": 3,
+        "test_count": 12,
+        "accuracy_percent": 25.0
+      },
+      "Rubens_Barrichello": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Salma_Hayek": {
+        "correct": 2,
+        "test_count": 8,
+        "accuracy_percent": 25.0
+      },
+      "Serena_Williams": {
+        "correct": 8,
+        "test_count": 47,
+        "accuracy_percent": 17.02127659574468
+      },
+      "Tang_Jiaxuan": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 7,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 196,
+    "correct": 47,
+    "accuracy_percent": 23.97959183673469,
+    "macro_subject_accuracy_percent": 18.578320109475126,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      196,
+      6561
+    ],
+    "encoding_seconds": 0.09613290000015695,
+    "matching_seconds": 0.023065999999744236,
+    "subject_results": {
+      "Abdullah_Gul": {
+        "correct": 1,
+        "test_count": 14,
+        "accuracy_percent": 7.142857142857142
+      },
+      "Angelina_Jolie": {
+        "correct": 1,
+        "test_count": 15,
+        "accuracy_percent": 6.666666666666667
+      },
+      "Eduardo_Duhalde": {
+        "correct": 2,
+        "test_count": 9,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Gray_Davis": {
+        "correct": 5,
+        "test_count": 21,
+        "accuracy_percent": 23.809523809523807
+      },
+      "Halle_Berry": {
+        "correct": 1,
+        "test_count": 11,
+        "accuracy_percent": 9.090909090909092
+      },
+      "Julianne_Moore": {
+        "correct": 11,
+        "test_count": 14,
+        "accuracy_percent": 78.57142857142857
+      },
+      "Kim_Clijsters": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Mahathir_Mohamad": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Nicole_Kidman": {
+        "correct": 1,
+        "test_count": 14,
+        "accuracy_percent": 7.142857142857142
+      },
+      "Renee_Zellweger": {
+        "correct": 1,
+        "test_count": 12,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Rubens_Barrichello": {
+        "correct": 1,
+        "test_count": 7,
+        "accuracy_percent": 14.285714285714285
+      },
+      "Salma_Hayek": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Serena_Williams": {
+        "correct": 20,
+        "test_count": 47,
+        "accuracy_percent": 42.5531914893617
+      },
+      "Tang_Jiaxuan": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 7,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 196,
+    "correct": 54,
+    "accuracy_percent": 27.55102040816326,
+    "macro_subject_accuracy_percent": 26.774623131006106,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      196,
+      6561
+    ],
+    "encoding_seconds": 0.10100929999862274,
+    "matching_seconds": 0.018761100000119768,
+    "subject_results": {
+      "Abdullah_Gul": {
+        "correct": 1,
+        "test_count": 14,
+        "accuracy_percent": 7.142857142857142
+      },
+      "Angelina_Jolie": {
+        "correct": 2,
+        "test_count": 15,
+        "accuracy_percent": 13.333333333333334
+      },
+      "Eduardo_Duhalde": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Gray_Davis": {
+        "correct": 4,
+        "test_count": 21,
+        "accuracy_percent": 19.047619047619047
+      },
+      "Halle_Berry": {
+        "correct": 4,
+        "test_count": 11,
+        "accuracy_percent": 36.36363636363637
+      },
+      "Julianne_Moore": {
+        "correct": 4,
+        "test_count": 14,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Kim_Clijsters": {
+        "correct": 4,
+        "test_count": 9,
+        "accuracy_percent": 44.44444444444444
+      },
+      "Mahathir_Mohamad": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Nicole_Kidman": {
+        "correct": 4,
+        "test_count": 14,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Renee_Zellweger": {
+        "correct": 2,
+        "test_count": 12,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Rubens_Barrichello": {
+        "correct": 0,
+        "test_count": 7,
+        "accuracy_percent": 0.0
+      },
+      "Salma_Hayek": {
+        "correct": 5,
+        "test_count": 8,
+        "accuracy_percent": 62.5
+      },
+      "Serena_Williams": {
+        "correct": 19,
+        "test_count": 47,
+        "accuracy_percent": 40.42553191489361
+      },
+      "Tang_Jiaxuan": {
+        "correct": 4,
+        "test_count": 6,
+        "accuracy_percent": 66.66666666666666
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 8,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 236,
+    "correct": 32,
+    "accuracy_percent": 13.559322033898304,
+    "macro_subject_accuracy_percent": 9.82893157262905,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      236,
+      61504
+    ],
+    "encoding_seconds": 0.2735080000002199,
+    "matching_seconds": 0.1923079999996844,
+    "subject_results": {
+      "Andy_Roddick": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Condoleezza_Rice": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Eduardo_Duhalde": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Hamid_Karzai": {
+        "correct": 1,
+        "test_count": 17,
+        "accuracy_percent": 5.88235294117647
+      },
+      "Hans_Blix": {
+        "correct": 12,
+        "test_count": 34,
+        "accuracy_percent": 35.294117647058826
+      },
+      "Jean_Charest": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 0,
+        "test_count": 19,
+        "accuracy_percent": 0.0
+      },
+      "Kim_Clijsters": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Lleyton_Hewitt": {
+        "correct": 3,
+        "test_count": 36,
+        "accuracy_percent": 8.333333333333332
+      },
+      "Lucio_Gutierrez": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Megawati_Sukarnoputri": {
+        "correct": 0,
+        "test_count": 28,
+        "accuracy_percent": 0.0
+      },
+      "Pervez_Musharraf": {
+        "correct": 0,
+        "test_count": 13,
+        "accuracy_percent": 0.0
+      },
+      "Rudolph_Giuliani": {
+        "correct": 15,
+        "test_count": 21,
+        "accuracy_percent": 71.42857142857143
+      },
+      "Tim_Henman": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 8,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 236,
+    "correct": 45,
+    "accuracy_percent": 19.06779661016949,
+    "macro_subject_accuracy_percent": 17.588175621125643,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      236,
+      16384
+    ],
+    "encoding_seconds": 0.33288250000077824,
+    "matching_seconds": 0.05194099999971513,
+    "subject_results": {
+      "Andy_Roddick": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Condoleezza_Rice": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Eduardo_Duhalde": {
+        "correct": 2,
+        "test_count": 9,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Hamid_Karzai": {
+        "correct": 3,
+        "test_count": 17,
+        "accuracy_percent": 17.647058823529413
+      },
+      "Hans_Blix": {
+        "correct": 7,
+        "test_count": 34,
+        "accuracy_percent": 20.588235294117645
+      },
+      "Jean_Charest": {
+        "correct": 0,
+        "test_count": 12,
+        "accuracy_percent": 0.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 12,
+        "test_count": 19,
+        "accuracy_percent": 63.1578947368421
+      },
+      "Kim_Clijsters": {
+        "correct": 2,
+        "test_count": 9,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Lleyton_Hewitt": {
+        "correct": 7,
+        "test_count": 36,
+        "accuracy_percent": 19.444444444444446
+      },
+      "Lucio_Gutierrez": {
+        "correct": 2,
+        "test_count": 8,
+        "accuracy_percent": 25.0
+      },
+      "Megawati_Sukarnoputri": {
+        "correct": 5,
+        "test_count": 28,
+        "accuracy_percent": 17.857142857142858
+      },
+      "Pervez_Musharraf": {
+        "correct": 0,
+        "test_count": 13,
+        "accuracy_percent": 0.0
+      },
+      "Rudolph_Giuliani": {
+        "correct": 3,
+        "test_count": 21,
+        "accuracy_percent": 14.285714285714285
+      },
+      "Tim_Henman": {
+        "correct": 1,
+        "test_count": 14,
+        "accuracy_percent": 7.142857142857142
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 8,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 236,
+    "correct": 47,
+    "accuracy_percent": 19.915254237288135,
+    "macro_subject_accuracy_percent": 17.880207413599713,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      236,
+      6561
+    ],
+    "encoding_seconds": 0.10185199999978067,
+    "matching_seconds": 0.02059939999890048,
+    "subject_results": {
+      "Andy_Roddick": {
+        "correct": 1,
+        "test_count": 10,
+        "accuracy_percent": 10.0
+      },
+      "Condoleezza_Rice": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      },
+      "Eduardo_Duhalde": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Hamid_Karzai": {
+        "correct": 1,
+        "test_count": 17,
+        "accuracy_percent": 5.88235294117647
+      },
+      "Hans_Blix": {
+        "correct": 13,
+        "test_count": 34,
+        "accuracy_percent": 38.23529411764706
+      },
+      "Jean_Charest": {
+        "correct": 9,
+        "test_count": 12,
+        "accuracy_percent": 75.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 4,
+        "test_count": 19,
+        "accuracy_percent": 21.052631578947366
+      },
+      "Kim_Clijsters": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Lleyton_Hewitt": {
+        "correct": 2,
+        "test_count": 36,
+        "accuracy_percent": 5.555555555555555
+      },
+      "Lucio_Gutierrez": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Megawati_Sukarnoputri": {
+        "correct": 11,
+        "test_count": 28,
+        "accuracy_percent": 39.285714285714285
+      },
+      "Pervez_Musharraf": {
+        "correct": 1,
+        "test_count": 13,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Rudolph_Giuliani": {
+        "correct": 0,
+        "test_count": 21,
+        "accuracy_percent": 0.0
+      },
+      "Tim_Henman": {
+        "correct": 2,
+        "test_count": 14,
+        "accuracy_percent": 14.285714285714285
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 8,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 236,
+    "correct": 65,
+    "accuracy_percent": 27.54237288135593,
+    "macro_subject_accuracy_percent": 18.273162841384863,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      236,
+      6561
+    ],
+    "encoding_seconds": 0.1009769000011147,
+    "matching_seconds": 0.02042970000002242,
+    "subject_results": {
+      "Andy_Roddick": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Condoleezza_Rice": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Eduardo_Duhalde": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Hamid_Karzai": {
+        "correct": 1,
+        "test_count": 17,
+        "accuracy_percent": 5.88235294117647
+      },
+      "Hans_Blix": {
+        "correct": 26,
+        "test_count": 34,
+        "accuracy_percent": 76.47058823529412
+      },
+      "Jean_Charest": {
+        "correct": 3,
+        "test_count": 12,
+        "accuracy_percent": 25.0
+      },
+      "Jeremy_Greenstock": {
+        "correct": 1,
+        "test_count": 19,
+        "accuracy_percent": 5.263157894736842
+      },
+      "Kim_Clijsters": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Lleyton_Hewitt": {
+        "correct": 16,
+        "test_count": 36,
+        "accuracy_percent": 44.44444444444444
+      },
+      "Lucio_Gutierrez": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Megawati_Sukarnoputri": {
+        "correct": 8,
+        "test_count": 28,
+        "accuracy_percent": 28.57142857142857
+      },
+      "Pervez_Musharraf": {
+        "correct": 1,
+        "test_count": 13,
+        "accuracy_percent": 7.6923076923076925
+      },
+      "Rudolph_Giuliani": {
+        "correct": 7,
+        "test_count": 21,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Tim_Henman": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_raw",
+    "seed": 9,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 204,
+    "correct": 35,
+    "accuracy_percent": 17.15686274509804,
+    "macro_subject_accuracy_percent": 15.989711487431853,
+    "feature_dimension": 61504,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      61504
+    ],
+    "query_feature_shape": [
+      204,
+      61504
+    ],
+    "encoding_seconds": 0.24501890000101412,
+    "matching_seconds": 0.1707734999999957,
+    "subject_results": {
+      "Bill_Gates": {
+        "correct": 5,
+        "test_count": 12,
+        "accuracy_percent": 41.66666666666667
+      },
+      "Gordon_Brown": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "James_Kelly": {
+        "correct": 2,
+        "test_count": 6,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Kim_Clijsters": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Lucio_Gutierrez": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Mahathir_Mohamad": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Mohammed_Al-Douri": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Paul_Bremer": {
+        "correct": 0,
+        "test_count": 15,
+        "accuracy_percent": 0.0
+      },
+      "Ricardo_Lagos": {
+        "correct": 0,
+        "test_count": 22,
+        "accuracy_percent": 0.0
+      },
+      "Serena_Williams": {
+        "correct": 10,
+        "test_count": 47,
+        "accuracy_percent": 21.27659574468085
+      },
+      "Silvio_Berlusconi": {
+        "correct": 12,
+        "test_count": 28,
+        "accuracy_percent": 42.857142857142854
+      },
+      "Taha_Yassin_Ramadan": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Tang_Jiaxuan": {
+        "correct": 3,
+        "test_count": 6,
+        "accuracy_percent": 50.0
+      },
+      "Tim_Henman": {
+        "correct": 0,
+        "test_count": 14,
+        "accuracy_percent": 0.0
+      }
+    }
+  },
+  {
+    "method": "lbp_hist",
+    "seed": 9,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 204,
+    "correct": 26,
+    "accuracy_percent": 12.745098039215685,
+    "macro_subject_accuracy_percent": 14.349454159484553,
+    "feature_dimension": 16384,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      16384
+    ],
+    "query_feature_shape": [
+      204,
+      16384
+    ],
+    "encoding_seconds": 0.29897710000113875,
+    "matching_seconds": 0.04562679999980901,
+    "subject_results": {
+      "Bill_Gates": {
+        "correct": 2,
+        "test_count": 12,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Gordon_Brown": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "James_Kelly": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Kim_Clijsters": {
+        "correct": 0,
+        "test_count": 9,
+        "accuracy_percent": 0.0
+      },
+      "Lucio_Gutierrez": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Mahathir_Mohamad": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Mohammed_Al-Douri": {
+        "correct": 3,
+        "test_count": 10,
+        "accuracy_percent": 30.0
+      },
+      "Paul_Bremer": {
+        "correct": 2,
+        "test_count": 15,
+        "accuracy_percent": 13.333333333333334
+      },
+      "Ricardo_Lagos": {
+        "correct": 3,
+        "test_count": 22,
+        "accuracy_percent": 13.636363636363635
+      },
+      "Serena_Williams": {
+        "correct": 3,
+        "test_count": 47,
+        "accuracy_percent": 6.382978723404255
+      },
+      "Silvio_Berlusconi": {
+        "correct": 4,
+        "test_count": 28,
+        "accuracy_percent": 14.285714285714285
+      },
+      "Taha_Yassin_Ramadan": {
+        "correct": 3,
+        "test_count": 10,
+        "accuracy_percent": 30.0
+      },
+      "Tang_Jiaxuan": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Tim_Henman": {
+        "correct": 1,
+        "test_count": 14,
+        "accuracy_percent": 7.142857142857142
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_gt",
+    "seed": 9,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 204,
+    "correct": 44,
+    "accuracy_percent": 21.568627450980394,
+    "macro_subject_accuracy_percent": 23.0599580257635,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      204,
+      6561
+    ],
+    "encoding_seconds": 0.09209460000056424,
+    "matching_seconds": 0.018183599999247235,
+    "subject_results": {
+      "Bill_Gates": {
+        "correct": 5,
+        "test_count": 12,
+        "accuracy_percent": 41.66666666666667
+      },
+      "Gordon_Brown": {
+        "correct": 3,
+        "test_count": 8,
+        "accuracy_percent": 37.5
+      },
+      "James_Kelly": {
+        "correct": 0,
+        "test_count": 6,
+        "accuracy_percent": 0.0
+      },
+      "Kim_Clijsters": {
+        "correct": 5,
+        "test_count": 9,
+        "accuracy_percent": 55.55555555555556
+      },
+      "Lucio_Gutierrez": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "Mahathir_Mohamad": {
+        "correct": 1,
+        "test_count": 9,
+        "accuracy_percent": 11.11111111111111
+      },
+      "Mohammed_Al-Douri": {
+        "correct": 1,
+        "test_count": 10,
+        "accuracy_percent": 10.0
+      },
+      "Paul_Bremer": {
+        "correct": 2,
+        "test_count": 15,
+        "accuracy_percent": 13.333333333333334
+      },
+      "Ricardo_Lagos": {
+        "correct": 11,
+        "test_count": 22,
+        "accuracy_percent": 50.0
+      },
+      "Serena_Williams": {
+        "correct": 9,
+        "test_count": 47,
+        "accuracy_percent": 19.148936170212767
+      },
+      "Silvio_Berlusconi": {
+        "correct": 1,
+        "test_count": 28,
+        "accuracy_percent": 3.571428571428571
+      },
+      "Taha_Yassin_Ramadan": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Tang_Jiaxuan": {
+        "correct": 4,
+        "test_count": 6,
+        "accuracy_percent": 66.66666666666666
+      },
+      "Tim_Henman": {
+        "correct": 2,
+        "test_count": 14,
+        "accuracy_percent": 14.285714285714285
+      }
+    }
+  },
+  {
+    "method": "enlbp_mean_ge",
+    "seed": 9,
+    "subject_count": 14,
+    "train_count": 70,
+    "test_count": 204,
+    "correct": 45,
+    "accuracy_percent": 22.058823529411764,
+    "macro_subject_accuracy_percent": 21.938210809791354,
+    "feature_dimension": 6561,
+    "image_shape_hw": [
+      250,
+      250
+    ],
+    "gallery_feature_shape": [
+      70,
+      6561
+    ],
+    "query_feature_shape": [
+      204,
+      6561
+    ],
+    "encoding_seconds": 0.09137420000115526,
+    "matching_seconds": 0.018072900000333902,
+    "subject_results": {
+      "Bill_Gates": {
+        "correct": 10,
+        "test_count": 12,
+        "accuracy_percent": 83.33333333333334
+      },
+      "Gordon_Brown": {
+        "correct": 0,
+        "test_count": 8,
+        "accuracy_percent": 0.0
+      },
+      "James_Kelly": {
+        "correct": 1,
+        "test_count": 6,
+        "accuracy_percent": 16.666666666666664
+      },
+      "Kim_Clijsters": {
+        "correct": 3,
+        "test_count": 9,
+        "accuracy_percent": 33.33333333333333
+      },
+      "Lucio_Gutierrez": {
+        "correct": 1,
+        "test_count": 8,
+        "accuracy_percent": 12.5
+      },
+      "Mahathir_Mohamad": {
+        "correct": 2,
+        "test_count": 9,
+        "accuracy_percent": 22.22222222222222
+      },
+      "Mohammed_Al-Douri": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Paul_Bremer": {
+        "correct": 2,
+        "test_count": 15,
+        "accuracy_percent": 13.333333333333334
+      },
+      "Ricardo_Lagos": {
+        "correct": 1,
+        "test_count": 22,
+        "accuracy_percent": 4.545454545454546
+      },
+      "Serena_Williams": {
+        "correct": 15,
+        "test_count": 47,
+        "accuracy_percent": 31.914893617021278
+      },
+      "Silvio_Berlusconi": {
+        "correct": 3,
+        "test_count": 28,
+        "accuracy_percent": 10.714285714285714
+      },
+      "Taha_Yassin_Ramadan": {
+        "correct": 0,
+        "test_count": 10,
+        "accuracy_percent": 0.0
+      },
+      "Tang_Jiaxuan": {
+        "correct": 3,
+        "test_count": 6,
+        "accuracy_percent": 50.0
+      },
+      "Tim_Henman": {
+        "correct": 4,
+        "test_count": 14,
+        "accuracy_percent": 28.57142857142857
+      }
+    }
+  }
+]

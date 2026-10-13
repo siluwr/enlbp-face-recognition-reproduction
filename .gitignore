@@ -9,6 +9,7 @@ paper/rendered/
 tests/tmp*/
 results/
 reproduction_bundle.zip
+lbp_enlbp_comparison_bundle.zip
 paper/paper_text.txt
 *.pdf
 .private/

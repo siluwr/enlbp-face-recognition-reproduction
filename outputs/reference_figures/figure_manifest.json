@@ -1,0 +1,250 @@
+{
+  "destination": "Chinese classroom/report reference figures; no journal-specific claims",
+  "script": {
+    "path": "plot_lbp_enlbp.py",
+    "sha256": "4020b3717bcc6bac275169d37cc34277d3f540566eb9fdc61c040a69a53069d7"
+  },
+  "font": "Microsoft YaHei",
+  "matplotlib": "3.8.0",
+  "numpy": "1.26.4",
+  "png_dpi": 300,
+  "svg_fonttype": "path",
+  "background": "opaque white",
+  "uncertainty": "sample SD across paired overlapping seed splits, ddof=1; not a CI",
+  "selection": "all seeds and four declared configurations; other variants stay in original experiment folders",
+  "timing_transform": "divide each seed's measured total by corresponding image/query count, then equal-weight seed mean",
+  "normalization": "feature dimensions / same dataset's LBP-code dimension * 100",
+  "sources": [
+    {
+      "path": "outputs/lbp_enlbp_orl/experiment.json",
+      "sha256": "863d39d5213a9c028369300b1518e3fb9e8bf35114cf9e7a5947ad5a8f36ef07"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/results.json",
+      "sha256": "870481f2e9d4fcf48e6647984ae650221fe85449c8182c9c4333bd7255199821"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/predictions.csv",
+      "sha256": "9cb78bb2076820a146609551bb4e86fe235a21b5baf883bd676850ac22aa4c28"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_0.json",
+      "sha256": "693201a5c649f5154270c62a881e2e5f21647de9b6e77b1a96a44b997d27c8a7"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_1.json",
+      "sha256": "d41c55f4bd6e6a1f1651f5cd93d986a0f043ba1aba8a96d5407a01775f03eede"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_2.json",
+      "sha256": "6532533b96b1c8f12e5c6916651562d88946f6590b3138ee79b54ec87c0a1a1f"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_3.json",
+      "sha256": "c7d20ab6fde859c02b3d31edae140a394f2307e5b39bd3fb4031dadeb867b89e"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_4.json",
+      "sha256": "c54b053b119bfda04656db80b58c9360fb2f1c6a229caed50a94697ec38cc372"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_5.json",
+      "sha256": "11b69ac0382f059d863650b623ea4dcba866a96374980d5ec22d485b3d1f8907"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_6.json",
+      "sha256": "5a360be6e764588aa9eaa32e3f38098f9425d72dc3a917ae199f96daef85a456"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_7.json",
+      "sha256": "aa69e61dce601e0fefdc65028f57214e8bf117bafa2c9b5bdef108d2cf9b69a1"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_8.json",
+      "sha256": "5932870c61c3bc598d29b0eac5b1d2987a4ab69da5177510d72ad2911b26014f"
+    },
+    {
+      "path": "outputs/lbp_enlbp_orl/split_seed_9.json",
+      "sha256": "6c8ce37314a7b02f3fe4198d2525682fa8b9a67c9e358ecac5ff9d348814e7ee"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/experiment.json",
+      "sha256": "a55190cf494fd1a714f394a1e6936f437ba9c7bff068eb66420b5e52ee1a9cbc"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/results.json",
+      "sha256": "543873eb6a9ab2298f37fdf35395e7c31f23a23371c1ab68d0bae32e73edc899"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/predictions.csv",
+      "sha256": "e64672dad3c975b335b2f8012eee8429b74879a458e7cfec7a2f26880005c5b9"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_0.json",
+      "sha256": "82d42601b5227fe1b02a1e3624d5cfb1711314b1e4b30066d4284b983ed61ab0"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_1.json",
+      "sha256": "d1cff5ec4b56cd0befe055ffea922f259ae4748e6dd9cef64752d72b268313ee"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_2.json",
+      "sha256": "5a4e7206eba084c498b4494539739cbcd57c6ccd14f0e8b07ec6f81a25285d90"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_3.json",
+      "sha256": "eb2d3a7d2f045e09d516e2fa8fcca4e17a2d30a5deb9867a567db0dd46dfe3f3"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_4.json",
+      "sha256": "40fd89ea6bc5046dbeea03a2eabee307f81bb46e930d9843b9ec630e5c04f3ac"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_5.json",
+      "sha256": "fb7f4a4408110838dd52bf22c59b3d30a0a2407b560c2a4b376a67cc4c51dce3"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_6.json",
+      "sha256": "70b775db1e01425f9f452fa550c746f47faf0fbd888021a57e6031cbdebd6553"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_7.json",
+      "sha256": "9f6d7619a852f9766fbcc8b995127a5eaf23359e54fb51636a9db4ae94e0a2de"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_8.json",
+      "sha256": "6a6dcf2ca5e210779894832c78dafae96cb9264657d9204cabf502c12734510b"
+    },
+    {
+      "path": "outputs/lbp_enlbp_lfwa/split_seed_9.json",
+      "sha256": "56ea215b0284ba081d05bbcdcbeb28bc7284e8a8cd5b3dd6febd664443249ea1"
+    }
+  ],
+  "image": {
+    "path": "data/orl/s1/1.pgm",
+    "sha256": "0198d5a79bb658bd75a79448880d9cf47d76c558c1a927244c004d26fb1e0499",
+    "panels": [
+      {
+        "label": "输入灰度图",
+        "shape_hw": [
+          112,
+          92
+        ]
+      },
+      {
+        "label": "普通 LBP 编码（≥）",
+        "shape_hw": [
+          110,
+          90
+        ]
+      },
+      {
+        "label": "3×3 非重叠均值",
+        "shape_hw": [
+          37,
+          30
+        ]
+      },
+      {
+        "label": "EnLBP 编码（>）",
+        "shape_hw": [
+          35,
+          28
+        ]
+      }
+    ]
+  },
+  "figures": [
+    {
+      "name": "01_accuracy",
+      "alt_text": "ORL：LBP 编码 ≥ 阈值 62.75%，LBP 直方图 ≥ 阈值 93.40%，EnLBP > 阈值 80.25%，EnLBP ≥ 阈值对照 80.30%；LFW-a：LBP 编码 ≥ 阈值 14.38%，LBP 直方图 ≥ 阈值 15.06%，EnLBP > 阈值 20.92%，EnLBP ≥ 阈值对照 21.97%。误差线为划分间 SD，空心点显示全部划分。",
+      "size_inches": [
+        13.6,
+        6.9
+      ],
+      "files": [
+        {
+          "path": "01_accuracy.png",
+          "sha256": "18c039b4d4198b073a8365c02f7cb334d64f453e2a0300cf708174b2733197b8"
+        },
+        {
+          "path": "01_accuracy.svg",
+          "sha256": "97ad5db7b5293ea9d497c7d5776ff387d284619ca867cc845691690179fd1181"
+        }
+      ]
+    },
+    {
+      "name": "02_paired_difference",
+      "alt_text": "配对差值图完整显示三个比较的全部划分；正值表示 EnLBP 准确率较高，负值表示较低，图中标有差值均值和获胜划分数。下行保持双方 ≥ 阈值一致。",
+      "size_inches": [
+        14.8,
+        7.4
+      ],
+      "files": [
+        {
+          "path": "02_paired_difference.png",
+          "sha256": "3842fee0539d67ad2e0c11e58a5b4107f25ff80cbac24b332ac90d6d98e70e89"
+        },
+        {
+          "path": "02_paired_difference.svg",
+          "sha256": "4daf592163fd1787a83b61cdc2a3ad88c8b57e93bcd9f5350d642691b41451c5"
+        }
+      ]
+    },
+    {
+      "name": "03_feature_dimension",
+      "alt_text": "特征维数以 LBP 编码为百分比基准，标有绝对维数。ORL 的 LBP 编码 9,900 维，EnLBP 980 维；LFW-a 的 LBP 编码 61,504 维，EnLBP 6,561 维。",
+      "size_inches": [
+        13.6,
+        6.9
+      ],
+      "files": [
+        {
+          "path": "03_feature_dimension.png",
+          "sha256": "de56aeddcb0e4b3b20fcae49026e98ea7a449d275a7cb541e3a852c2b3538312"
+        },
+        {
+          "path": "03_feature_dimension.svg",
+          "sha256": "bfb4898af96fe895c404720a42bc6190b84a8eaf077653fec4ed8eff01ce3819"
+        }
+      ]
+    },
+    {
+      "name": "04_timing",
+      "alt_text": "两行分别显示每张图像平均编码耗时和每张查询平均匹配耗时，均为总耗时归一化后的均值与 SD。每方法每划分仅计时一次、无预热；结果依赖机器和批量大小。",
+      "size_inches": [
+        13.6,
+        9.7
+      ],
+      "files": [
+        {
+          "path": "04_timing.png",
+          "sha256": "33683b093f65f24786a1dfee3696410722cedb129444d67fef9268acb7bc39ae"
+        },
+        {
+          "path": "04_timing.svg",
+          "sha256": "29a36181d231be1ab6da9c78d568a3a3fdfb7ef1ffac4f09d641f2fdd2726d87"
+        }
+      ]
+    },
+    {
+      "name": "05_encoding_process",
+      "alt_text": "同一示例图像的原图、普通 LBP 编码、均值压缩和 EnLBP 编码，并解释编码展开与直方图表示。所有图像使用相同 0–255 显示范围，无对比度调整。",
+      "size_inches": [
+        13.6,
+        6.6
+      ],
+      "files": [
+        {
+          "path": "05_encoding_process.png",
+          "sha256": "333a996296af48c87360dfabd3c2b3f3e2bfe836e2245161998da400db02c8e1"
+        },
+        {
+          "path": "05_encoding_process.svg",
+          "sha256": "0ea47f3a8b04ea09f70907cdb8bb455ca5a003b36b52c3e08856da1be8b2968a"
+        }
+      ]
+    }
+  ],
+  "checks": "prediction membership and accuracy counts verified against exported paired split files"
+}

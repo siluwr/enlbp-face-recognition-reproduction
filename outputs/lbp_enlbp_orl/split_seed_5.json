@@ -1,0 +1,1696 @@
+{
+  "seed": 5,
+  "rng": "numpy.random.default_rng / PCG64",
+  "selected_labels": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40"
+  ],
+  "eligible_labels": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40"
+  ],
+  "train_per_person": 5,
+  "min_images": 10,
+  "train_count": 200,
+  "test_count": 200,
+  "train": [
+    {
+      "path": "s1/2.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s1/3.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s1/4.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s1/7.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s1/8.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s2/2.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s2/4.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s2/7.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s2/8.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s2/10.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s3/3.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s3/5.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s3/6.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s3/8.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s3/10.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s4/1.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s4/2.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s4/3.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s4/7.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s4/9.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s5/1.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s5/2.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s5/4.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s5/9.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s5/10.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s6/1.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s6/2.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s6/6.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s6/8.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s6/9.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s7/2.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s7/6.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s7/7.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s7/8.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s7/9.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s8/1.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s8/2.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s8/4.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s8/5.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s8/8.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s9/2.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s9/3.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s9/6.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s9/7.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s9/10.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s10/1.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s10/3.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s10/6.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s10/9.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s10/10.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s11/1.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s11/6.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s11/7.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s11/9.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s11/10.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s12/1.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s12/2.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s12/4.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s12/5.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s12/7.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s13/5.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s13/6.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s13/7.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s13/8.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s13/9.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s14/1.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s14/3.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s14/6.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s14/7.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s14/8.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s15/1.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s15/3.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s15/6.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s15/7.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s15/10.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s16/1.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s16/5.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s16/6.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s16/7.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s16/8.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s17/1.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s17/4.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s17/5.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s17/7.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s17/9.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s18/1.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s18/3.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s18/4.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s18/5.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s18/10.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s19/1.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s19/5.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s19/8.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s19/9.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s19/10.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s20/2.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s20/4.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s20/7.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s20/9.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s20/10.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s21/1.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s21/3.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s21/5.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s21/6.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s21/10.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s22/4.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s22/5.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s22/7.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s22/8.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s22/10.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s23/1.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s23/2.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s23/7.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s23/8.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s23/10.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s24/2.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s24/4.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s24/6.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s24/7.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s24/10.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s25/1.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s25/2.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s25/3.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s25/4.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s25/6.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s26/1.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s26/3.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s26/5.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s26/6.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s26/10.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s27/4.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s27/5.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s27/6.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s27/7.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s27/10.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s28/1.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s28/4.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s28/6.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s28/8.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s28/10.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s29/1.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s29/6.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s29/8.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s29/9.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s29/10.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s30/1.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s30/4.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s30/5.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s30/6.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s30/7.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s31/2.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s31/4.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s31/6.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s31/7.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s31/9.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s32/5.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s32/6.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s32/7.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s32/8.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s32/9.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s33/1.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s33/2.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s33/5.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s33/8.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s33/9.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s34/2.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s34/3.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s34/6.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s34/8.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s34/10.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s35/4.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s35/6.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s35/7.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s35/8.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s35/10.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s36/4.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s36/5.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s36/7.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s36/8.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s36/10.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s37/2.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s37/4.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s37/8.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s37/9.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s37/10.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s38/2.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s38/4.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s38/6.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s38/7.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s38/10.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s39/1.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s39/3.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s39/6.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s39/7.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s39/10.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s40/2.pgm",
+      "label": "s40"
+    },
+    {
+      "path": "s40/4.pgm",
+      "label": "s40"
+    },
+    {
+      "path": "s40/8.pgm",
+      "label": "s40"
+    },
+    {
+      "path": "s40/9.pgm",
+      "label": "s40"
+    },
+    {
+      "path": "s40/10.pgm",
+      "label": "s40"
+    }
+  ],
+  "test": [
+    {
+      "path": "s1/1.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s1/5.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s1/6.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s1/9.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s1/10.pgm",
+      "label": "s1"
+    },
+    {
+      "path": "s2/1.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s2/3.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s2/5.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s2/6.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s2/9.pgm",
+      "label": "s2"
+    },
+    {
+      "path": "s3/1.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s3/2.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s3/4.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s3/7.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s3/9.pgm",
+      "label": "s3"
+    },
+    {
+      "path": "s4/4.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s4/5.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s4/6.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s4/8.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s4/10.pgm",
+      "label": "s4"
+    },
+    {
+      "path": "s5/3.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s5/5.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s5/6.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s5/7.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s5/8.pgm",
+      "label": "s5"
+    },
+    {
+      "path": "s6/3.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s6/4.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s6/5.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s6/7.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s6/10.pgm",
+      "label": "s6"
+    },
+    {
+      "path": "s7/1.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s7/3.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s7/4.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s7/5.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s7/10.pgm",
+      "label": "s7"
+    },
+    {
+      "path": "s8/3.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s8/6.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s8/7.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s8/9.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s8/10.pgm",
+      "label": "s8"
+    },
+    {
+      "path": "s9/1.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s9/4.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s9/5.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s9/8.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s9/9.pgm",
+      "label": "s9"
+    },
+    {
+      "path": "s10/2.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s10/4.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s10/5.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s10/7.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s10/8.pgm",
+      "label": "s10"
+    },
+    {
+      "path": "s11/2.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s11/3.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s11/4.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s11/5.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s11/8.pgm",
+      "label": "s11"
+    },
+    {
+      "path": "s12/3.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s12/6.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s12/8.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s12/9.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s12/10.pgm",
+      "label": "s12"
+    },
+    {
+      "path": "s13/1.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s13/2.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s13/3.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s13/4.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s13/10.pgm",
+      "label": "s13"
+    },
+    {
+      "path": "s14/2.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s14/4.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s14/5.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s14/9.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s14/10.pgm",
+      "label": "s14"
+    },
+    {
+      "path": "s15/2.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s15/4.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s15/5.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s15/8.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s15/9.pgm",
+      "label": "s15"
+    },
+    {
+      "path": "s16/2.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s16/3.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s16/4.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s16/9.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s16/10.pgm",
+      "label": "s16"
+    },
+    {
+      "path": "s17/2.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s17/3.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s17/6.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s17/8.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s17/10.pgm",
+      "label": "s17"
+    },
+    {
+      "path": "s18/2.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s18/6.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s18/7.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s18/8.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s18/9.pgm",
+      "label": "s18"
+    },
+    {
+      "path": "s19/2.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s19/3.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s19/4.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s19/6.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s19/7.pgm",
+      "label": "s19"
+    },
+    {
+      "path": "s20/1.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s20/3.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s20/5.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s20/6.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s20/8.pgm",
+      "label": "s20"
+    },
+    {
+      "path": "s21/2.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s21/4.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s21/7.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s21/8.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s21/9.pgm",
+      "label": "s21"
+    },
+    {
+      "path": "s22/1.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s22/2.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s22/3.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s22/6.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s22/9.pgm",
+      "label": "s22"
+    },
+    {
+      "path": "s23/3.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s23/4.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s23/5.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s23/6.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s23/9.pgm",
+      "label": "s23"
+    },
+    {
+      "path": "s24/1.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s24/3.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s24/5.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s24/8.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s24/9.pgm",
+      "label": "s24"
+    },
+    {
+      "path": "s25/5.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s25/7.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s25/8.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s25/9.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s25/10.pgm",
+      "label": "s25"
+    },
+    {
+      "path": "s26/2.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s26/4.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s26/7.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s26/8.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s26/9.pgm",
+      "label": "s26"
+    },
+    {
+      "path": "s27/1.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s27/2.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s27/3.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s27/8.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s27/9.pgm",
+      "label": "s27"
+    },
+    {
+      "path": "s28/2.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s28/3.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s28/5.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s28/7.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s28/9.pgm",
+      "label": "s28"
+    },
+    {
+      "path": "s29/2.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s29/3.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s29/4.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s29/5.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s29/7.pgm",
+      "label": "s29"
+    },
+    {
+      "path": "s30/2.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s30/3.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s30/8.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s30/9.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s30/10.pgm",
+      "label": "s30"
+    },
+    {
+      "path": "s31/1.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s31/3.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s31/5.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s31/8.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s31/10.pgm",
+      "label": "s31"
+    },
+    {
+      "path": "s32/1.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s32/2.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s32/3.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s32/4.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s32/10.pgm",
+      "label": "s32"
+    },
+    {
+      "path": "s33/3.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s33/4.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s33/6.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s33/7.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s33/10.pgm",
+      "label": "s33"
+    },
+    {
+      "path": "s34/1.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s34/4.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s34/5.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s34/7.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s34/9.pgm",
+      "label": "s34"
+    },
+    {
+      "path": "s35/1.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s35/2.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s35/3.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s35/5.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s35/9.pgm",
+      "label": "s35"
+    },
+    {
+      "path": "s36/1.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s36/2.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s36/3.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s36/6.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s36/9.pgm",
+      "label": "s36"
+    },
+    {
+      "path": "s37/1.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s37/3.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s37/5.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s37/6.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s37/7.pgm",
+      "label": "s37"
+    },
+    {
+      "path": "s38/1.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s38/3.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s38/5.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s38/8.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s38/9.pgm",
+      "label": "s38"
+    },
+    {
+      "path": "s39/2.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s39/4.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s39/5.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s39/8.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s39/9.pgm",
+      "label": "s39"
+    },
+    {
+      "path": "s40/1.pgm",
+      "label": "s40"
+    },
+    {
+      "path": "s40/3.pgm",
+      "label": "s40"
+    },
+    {
+      "path": "s40/5.pgm",
+      "label": "s40"
+    },
+    {
+      "path": "s40/6.pgm",
+      "label": "s40"
+    },
+    {
+      "path": "s40/7.pgm",
+      "label": "s40"
+    }
+  ]
+}

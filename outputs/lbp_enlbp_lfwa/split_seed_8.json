@@ -1,0 +1,1397 @@
+{
+  "seed": 8,
+  "rng": "numpy.random.default_rng / PCG64",
+  "selected_labels": [
+    "Andy_Roddick",
+    "Condoleezza_Rice",
+    "Eduardo_Duhalde",
+    "Hamid_Karzai",
+    "Hans_Blix",
+    "Jean_Charest",
+    "Jeremy_Greenstock",
+    "Kim_Clijsters",
+    "Lleyton_Hewitt",
+    "Lucio_Gutierrez",
+    "Megawati_Sukarnoputri",
+    "Pervez_Musharraf",
+    "Rudolph_Giuliani",
+    "Tim_Henman"
+  ],
+  "eligible_labels": [
+    "Abdullah_Gul",
+    "Adrien_Brody",
+    "Alejandro_Toledo",
+    "Alvaro_Uribe",
+    "Amelie_Mauresmo",
+    "Andre_Agassi",
+    "Andy_Roddick",
+    "Angelina_Jolie",
+    "Ann_Veneman",
+    "Anna_Kournikova",
+    "Ari_Fleischer",
+    "Ariel_Sharon",
+    "Arnold_Schwarzenegger",
+    "Atal_Bihari_Vajpayee",
+    "Bill_Clinton",
+    "Bill_Gates",
+    "Bill_Simon",
+    "Britney_Spears",
+    "Carlos_Menem",
+    "Carlos_Moya",
+    "Catherine_Zeta-Jones",
+    "Charles_Moose",
+    "Colin_Powell",
+    "Condoleezza_Rice",
+    "David_Beckham",
+    "David_Nalbandian",
+    "Dick_Cheney",
+    "Dominique_de_Villepin",
+    "Donald_Rumsfeld",
+    "Edmund_Stoiber",
+    "Eduardo_Duhalde",
+    "Fidel_Castro",
+    "George_HW_Bush",
+    "George_Robertson",
+    "George_W_Bush",
+    "Gerhard_Schroeder",
+    "Gloria_Macapagal_Arroyo",
+    "Gonzalo_Sanchez_de_Lozada",
+    "Gordon_Brown",
+    "Gray_Davis",
+    "Guillermo_Coria",
+    "Halle_Berry",
+    "Hamid_Karzai",
+    "Hans_Blix",
+    "Harrison_Ford",
+    "Hillary_Clinton",
+    "Howard_Dean",
+    "Hu_Jintao",
+    "Hugo_Chavez",
+    "Igor_Ivanov",
+    "Jack_Straw",
+    "Jackie_Chan",
+    "Jacques_Chirac",
+    "James_Blake",
+    "James_Kelly",
+    "Jean_Charest",
+    "Jean_Chretien",
+    "Jeb_Bush",
+    "Jennifer_Aniston",
+    "Jennifer_Capriati",
+    "Jennifer_Garner",
+    "Jennifer_Lopez",
+    "Jeremy_Greenstock",
+    "Jiang_Zemin",
+    "Jiri_Novak",
+    "Joe_Lieberman",
+    "John_Allen_Muhammad",
+    "John_Ashcroft",
+    "John_Bolton",
+    "John_Howard",
+    "John_Kerry",
+    "John_Negroponte",
+    "John_Paul_II",
+    "John_Snow",
+    "Joschka_Fischer",
+    "Jose_Maria_Aznar",
+    "Juan_Carlos_Ferrero",
+    "Julianne_Moore",
+    "Julie_Gerberding",
+    "Junichiro_Koizumi",
+    "Keanu_Reeves",
+    "Kim_Clijsters",
+    "Kim_Ryong-sung",
+    "Kofi_Annan",
+    "Lance_Armstrong",
+    "Laura_Bush",
+    "Lindsay_Davenport",
+    "Lleyton_Hewitt",
+    "Lucio_Gutierrez",
+    "Luiz_Inacio_Lula_da_Silva",
+    "Mahathir_Mohamad",
+    "Mahmoud_Abbas",
+    "Mark_Philippoussis",
+    "Megawati_Sukarnoputri",
+    "Meryl_Streep",
+    "Michael_Bloomberg",
+    "Michael_Jackson",
+    "Michael_Schumacher",
+    "Mike_Weir",
+    "Mohammed_Al-Douri",
+    "Nancy_Pelosi",
+    "Naomi_Watts",
+    "Nestor_Kirchner",
+    "Nicanor_Duarte_Frutos",
+    "Nicole_Kidman",
+    "Norah_Jones",
+    "Paul_Bremer",
+    "Paul_Burrell",
+    "Pervez_Musharraf",
+    "Pete_Sampras",
+    "Pierce_Brosnan",
+    "Queen_Elizabeth_II",
+    "Recep_Tayyip_Erdogan",
+    "Renee_Zellweger",
+    "Ricardo_Lagos",
+    "Richard_Gephardt",
+    "Richard_Myers",
+    "Roger_Federer",
+    "Roh_Moo-hyun",
+    "Rubens_Barrichello",
+    "Rudolph_Giuliani",
+    "Saddam_Hussein",
+    "Salma_Hayek",
+    "Serena_Williams",
+    "Sergey_Lavrov",
+    "Sergio_Vieira_De_Mello",
+    "Silvio_Berlusconi",
+    "Spencer_Abraham",
+    "Taha_Yassin_Ramadan",
+    "Tang_Jiaxuan",
+    "Tiger_Woods",
+    "Tim_Henman",
+    "Tom_Daschle",
+    "Tom_Ridge",
+    "Tommy_Franks",
+    "Tony_Blair",
+    "Trent_Lott",
+    "Venus_Williams",
+    "Vicente_Fox",
+    "Vladimir_Putin",
+    "Wen_Jiabao",
+    "Winona_Ryder",
+    "Yoriko_Kawaguchi"
+  ],
+  "train_per_person": 5,
+  "min_images": 11,
+  "train_count": 70,
+  "test_count": 236,
+  "train": [
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0001.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0002.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0003.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0008.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0014.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0001.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0004.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0005.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0008.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0009.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0001.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0002.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0003.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0004.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0010.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0002.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0005.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0011.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0018.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0022.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0003.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0013.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0014.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0021.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0030.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0003.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0007.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0008.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0011.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0013.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0001.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0004.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0006.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0009.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0017.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0003.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0006.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0007.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0013.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0014.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0003.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0005.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0025.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0035.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0039.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0001.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0007.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0010.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0011.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0012.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0006.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0012.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0015.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0022.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0026.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0006.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0010.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0012.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0014.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0015.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0008.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0012.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0015.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0025.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0026.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0005.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0007.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0008.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0016.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0017.jpg",
+      "label": "Tim_Henman"
+    }
+  ],
+  "test": [
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0004.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0005.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0006.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0007.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0009.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0010.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0011.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0012.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0013.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Andy_Roddick/Andy_Roddick_0015.jpg",
+      "label": "Andy_Roddick"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0002.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0003.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0006.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0007.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0010.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Condoleezza_Rice/Condoleezza_Rice_0011.jpg",
+      "label": "Condoleezza_Rice"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0005.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0006.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0007.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0008.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0009.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0011.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0012.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0013.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Eduardo_Duhalde/Eduardo_Duhalde_0014.jpg",
+      "label": "Eduardo_Duhalde"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0001.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0003.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0004.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0006.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0007.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0008.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0009.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0010.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0012.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0013.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0014.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0015.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0016.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0017.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0019.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0020.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hamid_Karzai/Hamid_Karzai_0021.jpg",
+      "label": "Hamid_Karzai"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0001.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0002.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0004.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0005.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0006.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0007.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0008.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0009.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0010.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0011.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0012.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0015.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0016.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0017.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0018.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0019.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0020.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0022.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0023.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0024.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0025.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0026.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0027.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0028.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0029.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0031.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0032.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0033.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0034.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0035.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0036.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0037.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0038.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Hans_Blix/Hans_Blix_0039.jpg",
+      "label": "Hans_Blix"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0001.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0002.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0004.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0005.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0006.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0009.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0010.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0012.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0014.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0015.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0016.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jean_Charest/Jean_Charest_0017.jpg",
+      "label": "Jean_Charest"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0002.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0003.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0005.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0007.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0008.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0010.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0011.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0012.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0013.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0014.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0015.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0016.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0018.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0019.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0020.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0021.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0022.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0023.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Jeremy_Greenstock/Jeremy_Greenstock_0024.jpg",
+      "label": "Jeremy_Greenstock"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0001.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0002.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0004.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0005.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0008.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0009.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0010.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0011.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Kim_Clijsters/Kim_Clijsters_0012.jpg",
+      "label": "Kim_Clijsters"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0001.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0002.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0004.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0006.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0007.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0008.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0009.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0010.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0011.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0012.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0013.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0014.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0015.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0016.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0017.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0018.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0019.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0020.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0021.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0022.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0023.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0024.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0026.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0027.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0028.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0029.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0030.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0031.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0032.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0033.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0034.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0036.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0037.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0038.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0040.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lleyton_Hewitt/Lleyton_Hewitt_0041.jpg",
+      "label": "Lleyton_Hewitt"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0002.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0003.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0004.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0005.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0006.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0008.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0009.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Lucio_Gutierrez/Lucio_Gutierrez_0013.jpg",
+      "label": "Lucio_Gutierrez"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0001.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0002.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0003.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0004.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0005.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0007.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0008.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0009.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0010.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0011.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0013.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0014.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0016.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0017.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0018.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0019.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0020.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0021.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0023.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0024.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0025.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0027.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0028.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0029.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0030.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0031.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0032.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Megawati_Sukarnoputri/Megawati_Sukarnoputri_0033.jpg",
+      "label": "Megawati_Sukarnoputri"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0001.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0002.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0003.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0004.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0005.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0007.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0008.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0009.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0011.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0013.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0016.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0017.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Pervez_Musharraf/Pervez_Musharraf_0018.jpg",
+      "label": "Pervez_Musharraf"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0001.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0002.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0003.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0004.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0005.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0006.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0007.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0009.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0010.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0011.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0013.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0014.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0016.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0017.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0018.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0019.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0020.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0021.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0022.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0023.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Rudolph_Giuliani/Rudolph_Giuliani_0024.jpg",
+      "label": "Rudolph_Giuliani"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0001.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0002.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0003.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0004.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0006.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0009.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0010.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0011.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0012.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0013.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0014.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0015.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0018.jpg",
+      "label": "Tim_Henman"
+    },
+    {
+      "path": "lfw2/lfw2/Tim_Henman/Tim_Henman_0019.jpg",
+      "label": "Tim_Henman"
+    }
+  ]
+}

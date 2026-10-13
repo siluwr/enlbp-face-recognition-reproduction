@@ -8,6 +8,8 @@
 
 - [论文解析](paper/论文解析.md)：研究问题、数学流程、图示手算、实验协议、优缺点和课堂汇报建议。
 - [实验结果](实验结果.md)：实际运行结果及其与原文的差异。
+- [LBP / EnLBP 中文参考图](outputs/reference_figures/参考图说明.md)：准确率、逐划分配对差、特征维数、编码/匹配耗时和处理过程，附真实数据表。
+- [对比实验运行说明](对比实验运行说明.md)：不下载人脸数据也可重绘结果，以及完整重跑命令。
 - [交互式 Notebook](reproduction.ipynb)：图 1/2 演算、编码过程和实验表。
 - `enlbp/descriptors.py`：LBP、均值池化、EnLBP 和直方图。
 - `enlbp/matching.py`：余弦相似度和最近邻匹配。
@@ -36,6 +38,43 @@ python download_data.py lfwa
 ORL 来自 [剑桥大学官方存档](https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html)，使用时注明 AT&T Laboratories Cambridge。LFW-a 来自 [Tal Hassner 作者页面](https://talhassner.github.io/home/projects/lfwa/)，使用与引用要求见该页。脚本使用作者页提供的 Google Drive 文件；若下载链接失效，可从作者页取得 ZIP 后运行 `python download_data.py lfwa --archive 路径.zip`。本项目不以其它对齐版本替换 LFW-a。
 
 ## 完整复现实验
+
+### LBP 与 EnLBP 的重点对比
+
+这组实验包含两种普通 LBP 表示，以及 EnLBP 的 `>` 正文解释和 `>=` 阈值对照，共四种配置。每种在 ORL 和 LFW-a 各运行 10 个相同的种子。比较 `lbp_raw` 与 `enlbp_mean_ge` 时，双方均使用 `>=`、编码展开和余弦最近邻，可以控制阈值与表示方式；`lbp_hist` 则提供直方图表示的基线。
+
+```powershell
+$env:OPENBLAS_NUM_THREADS = '1'
+$env:MKL_NUM_THREADS = '1'
+$env:OMP_NUM_THREADS = '1'
+python run_experiment.py --dataset orl --data-dir data/orl --output-dir outputs/lbp_enlbp_orl --methods lbp_raw lbp_hist enlbp_mean_gt enlbp_mean_ge --seeds 0 1 2 3 4 5 6 7 8 9
+python run_experiment.py --dataset lfwa --data-dir data/lfwa --output-dir outputs/lbp_enlbp_lfwa --methods lbp_raw lbp_hist enlbp_mean_gt enlbp_mean_ge --seeds 0 1 2 3 4 5 6 7 8 9
+python plot_lbp_enlbp.py --overwrite
+```
+
+已生成的参考图均有 300 DPI PNG 和可缩放 SVG：
+
+| 图 | 用途 |
+|---|---|
+| [准确率](outputs/reference_figures/01_accuracy.png) | 四种配置、两数据集，统一 0–100% 坐标；均值、SD 和全部种子点 |
+| [配对差值](outputs/reference_figures/02_paired_difference.png) | 同一种子的 EnLBP 减 LBP；显示反例和胜负次数 |
+| [特征维数](outputs/reference_figures/03_feature_dimension.png) | 标注绝对维数，以 LBP 编码为 100% 参照 |
+| [实际耗时](outputs/reference_figures/04_timing.png) | 编码 ms/图、匹配 ms/查询，分别展示均值和 SD |
+| [处理过程](outputs/reference_figures/05_encoding_process.png) | 同一张图像的 LBP、均值压缩和 EnLBP 编码 |
+
+本次重点对比：ORL 的 LBP 直方图为 **93.40%**，EnLBP(>) 为 **80.25%**；LFW-a 分别为 **15.06%** 和 **20.92%**。EnLBP 相比 LBP 编码保留约十分之一的维数，但并非在所有数据集上都比 LBP 直方图更准。计时为本机单次批量测量后的按图归一化，不是单图延迟基准。
+
+绘图脚本先核对预测记录、正确数与同一 seed 的划分清单，再从逐种子实测数据计算均值、样本 SD 和配对差。它保留 CSV、说明和图源 SHA-256；不覆盖你原来的 `outputs/my_*` 结果。单独重绘无需重跑识别实验；默认拒绝覆盖已有图，显式 `--overwrite` 才会更新：
+
+```powershell
+python plot_lbp_enlbp.py --overwrite
+# 也可以直接使用最初的九配置实验记录，只画图而不读取示例人脸：
+python plot_lbp_enlbp.py --orl outputs/orl --lfwa outputs/lfwa --output-dir outputs/reference_from_original --skip-process
+```
+
+中文图需要 Microsoft YaHei、SimHei 或 Noto Sans CJK SC 等中文字体。SVG 把文字保存成路径以保留外观；可检索的文字与数值保存在 Markdown/CSV 中。
+
+### 全部九种配置
 
 本次运行未缩放、裁脸或做直方图均衡化，使用全部原始尺寸。ORL 每人 5 张训练、5 张测试。LFW-a 每次在图片数大于 10 的人中随机取 14 人，每人 5 张训练，其余全部测试。种子改变时，LFW-a 的身份集合也改变。
 

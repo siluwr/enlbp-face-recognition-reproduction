@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "source_hashes_checked": 26,
+  "paired_split_files_equal_to_original": 20,
+  "accuracy_count_dimension_rows_equal_to_original": 80,
+  "summary_rows_checked": 8,
+  "seed_rows_checked": 80,
+  "png_files": [
+    {
+      "file": "01_accuracy.png",
+      "size_px": [
+        4080,
+        2070
+      ],
+      "mode": "RGB",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "02_paired_difference.png",
+      "size_px": [
+        4440,
+        2220
+      ],
+      "mode": "RGB",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "03_feature_dimension.png",
+      "size_px": [
+        4080,
+        2070
+      ],
+      "mode": "RGB",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "04_timing.png",
+      "size_px": [
+        4080,
+        2910
+      ],
+      "mode": "RGB",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "05_encoding_process.png",
+      "size_px": [
+        4080,
+        1980
+      ],
+      "mode": "RGB",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  ],
+  "method_palette_contrast": [
+    {
+      "color": "#0072B2",
+      "contrast_against_white": 5.185446345779855
+    },
+    {
+      "color": "#5B5285",
+      "contrast_against_white": 7.022383470624075
+    },
+    {
+      "color": "#A94D00",
+      "contrast_against_white": 5.602160008916996
+    },
+    {
+      "color": "#007A5E",
+      "contrast_against_white": 5.322595043546072
+    }
+  ],
+  "manual_review": "All five exported PNG figures visually inspected for labels, clipping, units and scientific meaning. Palette ratios are screening only, not accessibility certification.",
+  "core_tests": "46 passed",
+  "audited_figure_manifest_sha256": "d939a1436fdd4b6dee2f7ff22bb89d2d28fd0c24ac2a17cded98c18ab9d269a4",
+  "audited_script_sha256": "4020b3717bcc6bac275169d37cc34277d3f540566eb9fdc61c040a69a53069d7",
+  "refuse_implicit_overwrite_check": "passed"
+}
